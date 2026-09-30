@@ -82,7 +82,10 @@ def main():
         for s in (snippet(a["description"], pats, 140) if pats else [a["description"][:400]]):
             lines.append("> " + s.replace("\n", " "))
         lines.append("")
-    (out_dir / f"{TODAY}.md").write_text("\n".join(lines))
+    out = out_dir / f"{TODAY}.md"
+    if new:  # bei mehreren Läufen am selben Tag anhängen statt überschreiben
+        with open(out, "a") as f:
+            f.write(("\n" if out.exists() and out.stat().st_size else "") + "\n".join(lines))
     print(f"{len(new)} neue Kandidaten -> data/neu/{TODAY}.md  (bekannt: {len(seen)})")
 
 
