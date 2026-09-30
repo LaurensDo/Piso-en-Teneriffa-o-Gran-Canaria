@@ -1,0 +1,396 @@
+<title>Wohnungsradar Kanaren</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;800&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a working dashboard. Summary strip, filter bar, then a two-column card grid;
+   each card carries a price meter against the 2,000 EUR ceiling. Atlantic blue on cool lime-wash grey. */
+:root {
+  --bg: #eef3f4;
+  --surface: #ffffff;
+  --ink: #0e1d26;
+  --muted: #56666f;
+  --line: #d5dfe2;
+  --accent: #0a6a86;
+  --accent-ink: #ffffff;
+  --accent-soft: #dbedf2;
+  --good: #1c7547;
+  --good-soft: #dff1e6;
+  --warn: #9a5800;
+  --warn-soft: #fbecd6;
+  --crit: #b0271d;
+  --crit-soft: #f8e0dd;
+  --meter: #c9d7dc;
+  --font-display: "Epilogue", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b1419; --surface: #122029; --ink: #e5eef1; --muted: #93a6af; --line: #243741;
+    --accent: #5cc0db; --accent-ink: #06222c; --accent-soft: #123a48;
+    --good: #62c992; --good-soft: #143a27; --warn: #e8a74c; --warn-soft: #3d2b10;
+    --crit: #f07c6f; --crit-soft: #44201c; --meter: #2a404b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b1419; --surface: #122029; --ink: #e5eef1; --muted: #93a6af; --line: #243741;
+  --accent: #5cc0db; --accent-ink: #06222c; --accent-soft: #123a48;
+  --good: #62c992; --good-soft: #143a27; --warn: #e8a74c; --warn-soft: #3d2b10;
+  --crit: #f07c6f; --crit-soft: #44201c; --meter: #2a404b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 56px; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Header */
+.top { display: grid; gap: 18px; }
+.eyebrow { font-family: var(--font-data); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0; }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; }
+.lead { margin: 0; max-width: 64ch; color: var(--muted); }
+.lead b { color: var(--ink); font-weight: 600; }
+.stats { display: flex; flex-wrap: wrap; gap: 1px; margin: 0; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.stat { flex: 1 1 140px; background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.stat dt { font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+.stat dd { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 22px; font-variant-numeric: tabular-nums; }
+.stat dd small { font-family: var(--font-body); font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 4px; }
+
+/* Controls */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+.seg { display: inline-flex; flex-wrap: wrap; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 3px; }
+.seg button { font: inherit; font-size: 14px; border: 0; background: transparent; color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.seg button .c { font-family: var(--font-data); font-size: 12px; opacity: .75; margin-left: 4px; }
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; cursor: pointer; }
+.check input { accent-color: var(--accent); width: 16px; height: 16px; }
+.sort { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); }
+.sort select { font: inherit; font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; }
+
+/* Cards */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); gap: 16px; align-items: start; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.card.is-offline { opacity: .6; }
+.card-head { display: flex; gap: 10px; align-items: flex-start; }
+.plate { font-family: var(--font-data); font-size: 12px; font-weight: 500; letter-spacing: .04em; border: 1.5px solid var(--ink); border-radius: 4px; padding: 1px 5px; line-height: 1.4; flex: none; margin-top: 3px; }
+.card h3 { font-size: 18px; font-weight: 600; line-height: 1.25; min-width: 0; flex: 1; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--ink); white-space: nowrap; }
+.tag.good { background: var(--good-soft); color: var(--good); }
+.tag.warn { background: var(--warn-soft); color: var(--warn); }
+.tag.crit { background: var(--crit-soft); color: var(--crit); }
+.tag.new { background: var(--accent); color: var(--accent-ink); }
+
+.price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.price strong { font-family: var(--font-display); font-size: 26px; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.price .per { color: var(--muted); font-size: 14px; }
+.price .pnote { flex-basis: 100%; font-size: 13px; color: var(--muted); }
+.price .was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+
+.meter { position: relative; height: 8px; background: var(--meter); border-radius: 4px; margin-top: 2px; }
+.meter .fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); border-radius: 4px; }
+.meter .extra { position: absolute; top: 0; bottom: 0; background: repeating-linear-gradient(135deg, var(--warn) 0 3px, transparent 3px 6px); border-radius: 0 4px 4px 0; }
+.meter .cap { position: absolute; top: -4px; bottom: -4px; left: 80%; width: 2px; background: var(--ink); }
+.meter-legend { position: relative; height: 14px; font-family: var(--font-data); font-size: 11px; color: var(--muted); margin-top: 4px; }
+.meter-legend span { position: absolute; top: 0; left: 80%; transform: translateX(-50%); white-space: nowrap; }
+
+.facts { display: grid; gap: 6px; margin: 0; }
+.facts div { display: grid; grid-template-columns: 92px 1fr; gap: 8px; min-width: 0; }
+.facts dt { font-size: 12px; color: var(--muted); padding-top: 2px; }
+.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.note { margin: 0; font-size: 14px; padding: 8px 10px; border-radius: 8px; background: var(--bg); }
+.note.crit { background: var(--crit-soft); color: var(--ink); }
+.links { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: 14px; }
+.links a { font-weight: 600; text-underline-offset: 3px; }
+
+.status { display: grid; gap: 8px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.status .seg { border-radius: 8px; }
+.status .seg button { font-size: 13px; padding: 5px 10px; border-radius: 6px; }
+.status .seg button[data-s="favorit"][aria-pressed="true"] { background: var(--warn); color: var(--surface); }
+.status .seg button[data-s="angefragt"][aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.status .seg button[data-s="antwort"][aria-pressed="true"] { background: var(--good); color: var(--surface); }
+.status .seg button[data-s="zusage"][aria-pressed="true"] { background: var(--good); color: var(--surface); }
+.status .seg button[data-s="abgesagt"][aria-pressed="true"] { background: var(--crit); color: var(--surface); }
+.status input { font: inherit; font-size: 14px; width: 100%; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
+.status .saved { font-size: 12px; color: var(--muted); min-height: 1em; }
+
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px 20px; text-align: center; color: var(--muted); grid-column: 1 / -1; }
+.empty strong { display: block; color: var(--ink); font-family: var(--font-display); font-size: 18px; margin-bottom: 4px; }
+
+/* Notes section */
+.notes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px; align-items: start; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: grid; gap: 10px; min-width: 0; }
+.panel h2 { font-size: 18px; font-weight: 600; }
+.panel ol, .panel ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.panel p { margin: 0; }
+.template { font-size: 14px; background: var(--bg); border-radius: 8px; padding: 12px; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.btn { font: inherit; font-size: 14px; font-weight: 600; justify-self: start; border: 1px solid var(--accent); color: var(--accent); background: transparent; border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.btn:hover { background: var(--accent-soft); }
+footer { font-size: 13px; color: var(--muted); }
+
+@media (max-width: 520px) {
+  .facts div { grid-template-columns: 1fr; gap: 0; }
+  .controls { position: static; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: border-color .15s; }
+  .card:hover { border-color: var(--accent); }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">Januar 2027 · 1 Monat · 2–4 Personen</p>
+    <h1>Wohnungsradar Kanaren</h1>
+    <p class="lead">Lokale Mietangebote auf Teneriffa und Gran Canaria, jeden Morgen neu geprüft. Harte Kriterien: <b>im Januar frei</b>, <b>1 Monat erlaubt</b>, <b>mindestens 2 getrennte Betten</b>, <b>höchstens 2.000 €</b>.</p>
+    <dl class="stats" id="stats">
+      <div class="stat"><dt>Stand</dt><dd id="st-date">–</dd></div>
+      <div class="stat"><dt>Inserate geprüft</dt><dd id="st-screened">–</dd></div>
+      <div class="stat"><dt>Passen</dt><dd id="st-top">–</dd></div>
+      <div class="stat"><dt>Anfragen lohnt</dt><dd id="st-ask">–</dd></div>
+      <div class="stat"><dt>Bis 1. Januar</dt><dd id="st-days">–</dd></div>
+    </dl>
+  </header>
+
+  <nav class="controls" aria-label="Filter">
+    <div class="seg" role="group" aria-label="Kategorie" id="tabs">
+      <button type="button" data-tab="top" aria-pressed="true">Top-Treffer<span class="c" id="c-top"></span></button>
+      <button type="button" data-tab="ask" aria-pressed="false">Anfragen<span class="c" id="c-ask"></span></button>
+      <button type="button" data-tab="out" aria-pressed="false">Aussortiert<span class="c" id="c-out"></span></button>
+      <button type="button" data-tab="mine" aria-pressed="false">Meine Liste<span class="c" id="c-mine"></span></button>
+    </div>
+    <div class="seg" role="group" aria-label="Insel" id="isles">
+      <button type="button" data-isle="all" aria-pressed="true">Beide Inseln</button>
+      <button type="button" data-isle="TF" aria-pressed="false">Teneriffa</button>
+      <button type="button" data-isle="GC" aria-pressed="false">Gran Canaria</button>
+    </div>
+    <label class="check"><input type="checkbox" id="only-private"> Nur privat</label>
+    <label class="sort">Sortieren <select id="sort">
+      <option value="rank">Empfehlung</option>
+      <option value="price">Preis</option>
+      <option value="new">Neueste</option>
+    </select></label>
+  </nav>
+
+  <main class="grid" id="list" aria-live="polite">
+    <div class="empty" id="empty"><strong>Wohnungen werden geladen …</strong>Die Liste kommt aus der täglichen Auswertung von Milanuncios und Fotocasa.</div>
+  </main>
+
+  <section class="notes" aria-label="Hinweise">
+    <div class="panel">
+      <h2>Was der Markt gerade sagt</h2>
+      <ol>
+        <li><b>Ein einzelner Monat im Januar ist selten.</b> Januar ist Hochsaison für Überwinterer. Die meisten Saisonwohnungen verlangen 3–6 Monate.</li>
+        <li><b>Maklergebühren kosten fast eine zweite Miete.</b> Bei „alquiler de temporada“ zahlt meist der Mieter 1 Monatsmiete + 7 % IGIC, dazu 1–2 Monatsmieten Kaution. Private Anbieter sind klar im Vorteil. Frag immer nach „honorarios“.</li>
+        <li><b>Für einen Monat nehmen viele Anbieter mehr</b> als für längere Zeiträume.</li>
+        <li><b>Die Befristung braucht einen Grund.</b> Reiner Urlaub zählt rechtlich als Ferienvermietung. „Teletrabajo“ oder ein Arbeitsnachweis genügt meist.</li>
+        <li><b>Airbnb und Flatio sind mit Gebühren oft gleichauf.</b> Monatsrabatte von 20–50 % sind üblich. Vergleichen lohnt sich.</li>
+        <li><b>Früh anfragen.</b> Januar-Wohnungen gehen im Oktober und November weg.</li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h2>Anfrage auf Spanisch</h2>
+      <p class="template" id="tpl">Hola, estoy interesado/a en su vivienda [enlace]. Buscamos alquiler de temporada para todo el mes de enero de 2027 (del 1 al 31), 2–4 personas, por motivo de teletrabajo. ¿Está disponible en esas fechas? ¿Cuál sería el precio total para un mes, incluyendo suministros, fianza y posibles honorarios de agencia? Muchas gracias.</p>
+      <button type="button" class="btn" id="copy">Text kopieren</button>
+      <h2>Selbst im Blick behalten</h2>
+      <ul>
+        <li><b>Idealista</b> blockiert automatische Abrufe. Leg dort einen Suchalarm an: Alquiler de temporada, max. 2.000 €, ab 2 Schlafzimmern.</li>
+        <li><b>Facebook-Gruppen und Wallapop</b>: Dort inserieren viele Privatvermieter ohne Makler.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>Quellen: Milanuncios und Fotocasa, beide Provinzen, Mieten 450–2.000 €. Update täglich gegen 7:50 Uhr (Berlin). Preise laut Inserat, ohne Gewähr.</footer>
+</div>
+
+<script>
+(() => {
+  const TABS = ["top", "ask", "out", "mine"];
+  const STATES = [["favorit", "Favorit"], ["angefragt", "Angefragt"], ["antwort", "Antwort da"], ["zusage", "Zusage"], ["abgesagt", "Abgesagt"]];
+  const CAP = 2000, SCALE = 2500;
+  const state = { listings: [], status: new Map(), meta: null, tab: "top", isle: "all", onlyPrivate: false, sort: "rank" };
+  const saveMsg = new Map();
+  let db = null, canWrite = null, loaded = false;
+  const writeChains = new Map();
+
+  const $ = (id) => document.getElementById(id);
+  const eur = (n) => new Intl.NumberFormat("de-DE").format(n) + " €";
+  const fmtDate = (iso) => { const [y, m, d] = String(iso || "").split("-").map(Number); return y ? new Date(y, m - 1, d).toLocaleDateString("de-DE", { day: "numeric", month: "short" }) : "–"; };
+  function h(tag, attrs, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v; else if (k.startsWith("on")) el.addEventListener(k.slice(2), v); else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid instanceof Node ? kid : String(kid));
+    return el;
+  }
+  const safeUrl = (u) => { try { const x = new URL(u); return x.protocol === "https:" ? x.href : null; } catch { return null; } };
+
+  // Remembered filters (per viewer, optional)
+  try {
+    const saved = JSON.parse(localStorage.getItem("radar-filters") || "{}");
+    if (TABS.includes(saved.tab)) state.tab = saved.tab;
+    if (["all", "TF", "GC"].includes(saved.isle)) state.isle = saved.isle;
+    state.onlyPrivate = !!saved.onlyPrivate;
+    if (["rank", "price", "new"].includes(saved.sort)) state.sort = saved.sort;
+  } catch {}
+  function remember() { try { localStorage.setItem("radar-filters", JSON.stringify({ tab: state.tab, isle: state.isle, onlyPrivate: state.onlyPrivate, sort: state.sort })); } catch {} }
+
+  // Countdown to 1 January 2027 (viewer's local date)
+  (() => { const now = new Date(); const t = new Date(2027, 0, 1); const days = Math.ceil((t - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5); $("st-days").textContent = days > 0 ? days + " Tage" : "läuft"; })();
+
+  function syncControls() {
+    for (const b of $("tabs").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.tab === state.tab));
+    for (const b of $("isles").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.isle === state.isle));
+    $("only-private").checked = state.onlyPrivate;
+    $("sort").value = state.sort;
+  }
+  $("tabs").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.tab = b.dataset.tab; remember(); syncControls(); render(); });
+  $("isles").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.isle = b.dataset.isle; remember(); syncControls(); render(); });
+  $("only-private").addEventListener("change", (e) => { state.onlyPrivate = e.target.checked; remember(); render(); });
+  $("sort").addEventListener("change", (e) => { state.sort = e.target.value; remember(); render(); });
+  $("copy").addEventListener("click", async () => {
+    const txt = $("tpl").textContent;
+    try { await navigator.clipboard.writeText(txt); $("copy").textContent = "Kopiert"; }
+    catch { const r = document.createRange(); r.selectNodeContents($("tpl")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("copy").textContent = "Markiert, jetzt kopieren"; }
+    setTimeout(() => { $("copy").textContent = "Text kopieren"; }, 2500);
+  });
+  syncControls();
+
+  const statusOf = (key) => state.status.get(key) || null;
+  const isNew = (l) => state.meta && l.firstSeen && l.firstSeen === state.meta.lastUpdate && l.firstSeen !== state.meta.firstRun;
+
+  function visible() {
+    let rows = state.listings.filter((l) => {
+      if (state.tab === "mine") { const s = statusOf(l.key); if (!s || !s.state) return false; }
+      else if (l.tier !== state.tab) return false;
+      if (state.isle !== "all" && l.isle !== state.isle) return false;
+      if (state.onlyPrivate && !l.private) return false;
+      return true;
+    });
+    const by = { rank: (a, b) => (a.rank ?? 999) - (b.rank ?? 999), price: (a, b) => (a.price ?? 0) - (b.price ?? 0), new: (a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)) || (a.rank ?? 999) - (b.rank ?? 999) };
+    return rows.sort(by[state.sort]);
+  }
+
+  function meter(l) {
+    const price = Number(l.price) || 0, est = Number(l.estMonth) || 0;
+    const wrap = h("div", { class: "meter", role: "img", "aria-label": `${eur(price)}${est > price ? `, real ca. ${eur(est)}` : ""} von ${eur(CAP)} Obergrenze` });
+    wrap.append(h("span", { class: "fill", style: `width:${Math.min(price / SCALE, 1) * 100}%` }));
+    if (est > price) wrap.append(h("span", { class: "extra", style: `left:${Math.min(price / SCALE, 1) * 100}%;width:${(Math.min(est / SCALE, 1) - Math.min(price / SCALE, 1)) * 100}%` }));
+    wrap.append(h("span", { class: "cap" }));
+    return h("div", {}, wrap, h("div", { class: "meter-legend" }, h("span", {}, "2.000 € Grenze")));
+  }
+
+  function statusBlock(l) {
+    const s = statusOf(l.key) || {};
+    if (!db) return null;
+    if (canWrite === false) {
+      if (!s.state) return null;
+      const label = (STATES.find(([k]) => k === s.state) || [0, s.state])[1];
+      return h("div", { class: "status" }, h("div", { class: "tags" }, h("span", { class: "tag" }, "Status: " + label)), s.note ? h("p", { class: "note" }, s.note) : null);
+    }
+    const saved = h("span", { class: "saved" }, saveMsg.get(l.key) || "");
+    const seg = h("div", { class: "seg", role: "group", "aria-label": "Mein Status" },
+      STATES.map(([k, label]) => h("button", { type: "button", "data-s": k, "aria-pressed": String(s.state === k),
+        onclick: () => save(l.key, { state: s.state === k ? "" : k }) }, label)));
+    const input = h("input", { type: "text", id: "note-" + l.key, placeholder: "Notiz, z. B. Antwort vom Vermieter", value: s.note || "", "aria-label": "Notiz" });
+    input.addEventListener("change", () => save(l.key, { note: input.value.trim().slice(0, 500) }));
+    return h("div", { class: "status" }, seg, input, saved);
+  }
+
+  function save(key, patch) {
+    const prev = statusOf(key) || {};
+    const next = { state: prev.state || "", note: prev.note || "", ...patch, updatedAt: new Date().toISOString() };
+    state.status.set(key, next);
+    render();
+    const chain = (writeChains.get(key) || Promise.resolve()).then(() => db.collection("status").doc(key).set(next))
+      .then(() => { saveMsg.set(key, "Gespeichert"); render(); })
+      .catch((e) => {
+        if (e && e.code === "invalid_argument") canWrite = false;
+        else saveMsg.set(key, "Nicht gespeichert. Bitte später erneut versuchen.");
+        render();
+      });
+    writeChains.set(key, chain);
+  }
+
+  function card(l) {
+    const tags = [];
+    if (isNew(l)) tags.push(h("span", { class: "tag new" }, "neu"));
+    if (l.private) tags.push(h("span", { class: "tag good" }, "privat · keine Maklergebühr"));
+    if (l.pool) tags.push(h("span", { class: "tag" }, "Pool"));
+    if (l.online === false) tags.push(h("span", { class: "tag warn" }, "offline?"));
+    if (Number(l.estMonth) > CAP) tags.push(h("span", { class: "tag warn" }, "real über 2.000 €"));
+    const hist = Array.isArray(l.priceHistory) && l.priceHistory.length ? l.priceHistory[l.priceHistory.length - 1] : null;
+    const links = (Array.isArray(l.links) ? l.links : []).map((x) => { const u = safeUrl(x && x.url); return u ? h("a", { href: u, target: "_blank", rel: "noopener" }, (x.label || "Inserat") + " ↗") : null; });
+    return h("article", { class: "card" + (l.online === false ? " is-offline" : "") },
+      h("div", { class: "card-head" }, h("span", { class: "plate", title: l.isle === "TF" ? "Teneriffa" : "Gran Canaria" }, l.isle || "?"), h("h3", {}, l.place || "")),
+      tags.length ? h("div", { class: "tags" }, tags) : null,
+      h("div", {},
+        h("div", { class: "price" }, h("strong", {}, l.price ? eur(l.price) : "–"), h("span", { class: "per" }, "/ Monat"),
+          hist && hist[1] ? h("span", { class: "was" }, eur(hist[1])) : null,
+          l.priceNote ? h("span", { class: "pnote" }, l.priceNote) : null),
+        l.price ? meter(l) : null),
+      h("dl", { class: "facts" },
+        l.flat ? h("div", {}, h("dt", {}, "Wohnung"), h("dd", {}, l.flat)) : null,
+        l.terms ? h("div", {}, h("dt", {}, "Mietdauer"), h("dd", {}, l.terms)) : null,
+        l.provider ? h("div", {}, h("dt", {}, "Anbieter"), h("dd", {}, l.provider)) : null,
+        l.firstSeen ? h("div", {}, h("dt", {}, "Gefunden"), h("dd", { class: "num" }, fmtDate(l.firstSeen) + (l.lastSeen && l.lastSeen !== l.firstSeen ? " · zuletzt online " + fmtDate(l.lastSeen) : ""))) : null),
+      l.note ? h("p", { class: "note" + (l.tier === "out" ? " crit" : "") }, l.note) : null,
+      links.length ? h("div", { class: "links" }, links) : null,
+      statusBlock(l));
+  }
+
+  function render() {
+    const counts = { top: 0, ask: 0, out: 0, mine: 0 };
+    for (const l of state.listings) { if (counts[l.tier] != null) counts[l.tier]++; const s = statusOf(l.key); if (s && s.state) counts.mine++; }
+    for (const t of TABS) $("c-" + t).textContent = loaded ? counts[t] : "";
+    const m = state.meta;
+    $("st-date").textContent = m ? fmtDate(m.lastUpdate) : "–";
+    $("st-screened").textContent = m && m.screened ? new Intl.NumberFormat("de-DE").format(m.screened) : "–";
+    $("st-top").textContent = loaded ? counts.top : "–";
+    $("st-ask").textContent = loaded ? counts.ask : "–";
+
+    const list = $("list");
+    if (!loaded) return;
+    const rows = visible();
+    if (!rows.length) {
+      const msg = state.tab === "mine"
+        ? ["Noch nichts markiert", "Markiere Wohnungen als Favorit oder angefragt. Sie erscheinen dann hier."]
+        : state.listings.length ? ["Keine Treffer mit diesen Filtern", "Stell die Insel auf „Beide Inseln“ oder schalte „Nur privat“ aus."]
+        : ["Noch keine Wohnungen", "Die Liste füllt sich beim nächsten täglichen Update."];
+      list.replaceChildren(h("div", { class: "empty" }, h("strong", {}, msg[0]), msg[1]));
+      return;
+    }
+    // keep focus in a note field across re-renders
+    const active = document.activeElement && document.activeElement.id && document.activeElement.id.startsWith("note-") ? document.activeElement.id : null;
+    list.replaceChildren(...rows.map(card));
+    if (active && $(active)) $(active).focus();
+  }
+
+  (async () => {
+    db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+    if (!db) {
+      $("list").replaceChildren(h("div", { class: "empty" }, h("strong", {}, "Liste nicht verfügbar"), "Die Wohnungen laden nur, wenn du die Seite angemeldet in Claude öffnest."));
+      return;
+    }
+    const onErr = () => { $("list").replaceChildren(h("div", { class: "empty" }, h("strong", {}, "Verbindung unterbrochen"), "Lade die Seite neu, um die aktuelle Liste zu sehen.")); };
+    db.collection("listings").onSnapshot((snap) => {
+      state.listings = snap.docs.map((d) => ({ key: d.id, ...d.data() }));
+      loaded = true; render();
+    }, onErr);
+    db.doc("meta/summary").onSnapshot((d) => { state.meta = d.exists ? d.data() : null; render(); }, () => {});
+    db.collection("status").onSnapshot((snap) => {
+      const m = new Map(); for (const d of snap.docs) m.set(d.id, d.data()); state.status = m; render();
+    }, () => {});
+    const user = await window.claude.use("user");
+    if (user) { try { canWrite = await user.can("data.write"); } catch { canWrite = null; } render(); }
+  })();
+})();
+</script>

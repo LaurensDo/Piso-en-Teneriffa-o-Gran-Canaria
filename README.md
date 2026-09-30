@@ -3,7 +3,9 @@
 Tägliches Screening des lokalen Mietmarkts (nicht Airbnb/Booking) nach einer Wohnung für
 **1 Monat im Januar 2027**, 2–4 Personen, mind. 2 getrennte Betten, max. 2.000 €.
 
-- **[wohnungen.md](wohnungen.md)** – aktuelle Shortlist, Anfrage-Kandidaten, Markteinschätzung
+- **Dashboard „Wohnungsradar Kanaren“:** https://claude.ai/artifact/KvWpcNWSn7zDUM1Rfm8TYi (privat, nur für den Besitzer sichtbar)
+  – Quelle der Einträge ist `data/dashboard.json`; Seitenquelltext in `dashboard/wohnungsradar.html`
+- **[wohnungen.md](wohnungen.md)** – Erstauswertung vom 30.09.2026 als Text (Shortlist, Markteinschätzung)
 - `data/neu/JJJJ-MM-TT.md` – automatisch gefundene neue Inserate des jeweiligen Tages (Rohliste)
 - `data/seen.json` – bereits bekannte Inserate (für den Neu-Abgleich und Preisänderungen)
 
