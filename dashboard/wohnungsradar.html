@@ -77,9 +77,9 @@ h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); gap: 16px; align-items: start; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; min-width: 0; }
 .card.is-offline { opacity: .6; }
-.card-head { display: flex; gap: 10px; align-items: flex-start; }
+.card-head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: flex-start; }
 .plate { font-family: var(--font-data); font-size: 12px; font-weight: 500; letter-spacing: .04em; border: 1.5px solid var(--ink); border-radius: 4px; padding: 1px 5px; line-height: 1.4; flex: none; margin-top: 3px; }
-.card h3 { font-size: 18px; font-weight: 600; line-height: 1.25; min-width: 0; flex: 1; }
+.card h3 { font-size: 18px; font-weight: 600; line-height: 1.25; min-width: 0; flex: 1 1 200px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--ink); white-space: nowrap; }
 .tag.good { background: var(--good-soft); color: var(--good); }
@@ -92,6 +92,15 @@ h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em
 .price .per { color: var(--muted); font-size: 14px; }
 .price .pnote { flex-basis: 100%; font-size: 13px; color: var(--muted); }
 .price .was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+.price .fee { flex-basis: 100%; font-size: 13px; font-weight: 600; color: var(--warn); }
+.price .fee.ok { color: var(--good); }
+.bike { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; border: 1px solid var(--line); color: var(--muted); }
+.bike.top { background: var(--good-soft); color: var(--good); border-color: transparent; }
+.bike.gut { background: var(--accent-soft); color: var(--ink); border-color: transparent; }
+.zones { display: grid; gap: 10px; }
+.zones div { display: grid; gap: 2px; }
+.zones b { font-size: 14px; }
+.zones span { font-size: 14px; color: var(--muted); }
 
 .meter { position: relative; height: 8px; background: var(--meter); border-radius: 4px; margin-top: 2px; }
 .meter .fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); border-radius: 4px; }
@@ -148,11 +157,11 @@ footer { font-size: 13px; color: var(--muted); }
   <header class="top">
     <p class="eyebrow">Januar 2027 · 1 Monat · 2–4 Personen</p>
     <h1>Wohnungsradar Kanaren</h1>
-    <p class="lead">Lokale Mietangebote auf Teneriffa und Gran Canaria, jeden Morgen neu geprüft. Harte Kriterien: <b>im Januar frei</b>, <b>1 Monat erlaubt</b>, <b>mindestens 2 getrennte Betten</b>, <b>höchstens 2.000 €</b>.</p>
+    <p class="lead">Lokale Mietangebote auf Teneriffa und Gran Canaria, jeden Morgen neu geprüft. Harte Kriterien: <b>im Januar frei</b>, <b>1 Monat erlaubt</b>, <b>mindestens 2 getrennte Betten</b>, <b>höchstens 2.000 € Gesamtkosten im Monat</b>, Maklergebühr und Nebenkosten eingerechnet.</p>
     <dl class="stats" id="stats">
       <div class="stat"><dt>Stand</dt><dd id="st-date">–</dd></div>
       <div class="stat"><dt>Inserate geprüft</dt><dd id="st-screened">–</dd></div>
-      <div class="stat"><dt>Passen</dt><dd id="st-top">–</dd></div>
+      <div class="stat"><dt>Passen sicher</dt><dd id="st-top">–</dd></div>
       <div class="stat"><dt>Anfragen lohnt</dt><dd id="st-ask">–</dd></div>
       <div class="stat"><dt>Bis 1. Januar</dt><dd id="st-days">–</dd></div>
     </dl>
@@ -170,10 +179,15 @@ footer { font-size: 13px; color: var(--muted); }
       <button type="button" data-isle="TF" aria-pressed="false">Teneriffa</button>
       <button type="button" data-isle="GC" aria-pressed="false">Gran Canaria</button>
     </div>
+    <div class="seg" role="group" aria-label="Radlage" id="bikes">
+      <button type="button" data-bike="all" aria-pressed="true">Jede Lage</button>
+      <button type="button" data-bike="gut" aria-pressed="false">Gut fürs Rad</button>
+      <button type="button" data-bike="top" aria-pressed="false">Top-Radrevier</button>
+    </div>
     <label class="check"><input type="checkbox" id="only-private"> Nur privat</label>
     <label class="sort">Sortieren <select id="sort">
       <option value="rank">Empfehlung</option>
-      <option value="price">Preis</option>
+      <option value="price">Gesamtkosten</option>
       <option value="new">Neueste</option>
     </select></label>
   </nav>
@@ -187,12 +201,20 @@ footer { font-size: 13px; color: var(--muted); }
       <h2>Was der Markt gerade sagt</h2>
       <ol>
         <li><b>Ein einzelner Monat im Januar ist selten.</b> Januar ist Hochsaison für Überwinterer. Die meisten Saisonwohnungen verlangen 3–6 Monate.</li>
-        <li><b>Maklergebühren kosten fast eine zweite Miete.</b> Bei „alquiler de temporada“ zahlt meist der Mieter 1 Monatsmiete + 7 % IGIC, dazu 1–2 Monatsmieten Kaution. Private Anbieter sind klar im Vorteil. Frag immer nach „honorarios“.</li>
+        <li><b>Maklergebühren kosten fast eine zweite Miete.</b> Bei „alquiler de temporada“ zahlt meist der Mieter 1 Monatsmiete + 7 % IGIC. Deshalb liegen die meisten Agentur-Angebote über 2.000 € gesamt. Bei unbekannter Gebühr zeigt jede Karte, bis zu welcher Gebühr es noch passt. Die Kaution ist nicht eingerechnet, du bekommst sie zurück.</li>
         <li><b>Für einen Monat nehmen viele Anbieter mehr</b> als für längere Zeiträume.</li>
         <li><b>Die Befristung braucht einen Grund.</b> Reiner Urlaub zählt rechtlich als Ferienvermietung. „Teletrabajo“ oder ein Arbeitsnachweis genügt meist.</li>
         <li><b>Airbnb und Flatio sind mit Gebühren oft gleichauf.</b> Monatsrabatte von 20–50 % sind üblich. Vergleichen lohnt sich.</li>
         <li><b>Früh anfragen.</b> Januar-Wohnungen gehen im Oktober und November weg.</li>
       </ol>
+    </div>
+    <div class="panel">
+      <h2>Radreviere im Januar</h2>
+      <div class="zones">
+        <div><b>Top-Radrevier</b><span>Gran Canaria: der Süden von San Agustín bis Mogán, mit Fataga, Soria und Cerana ab Haustür. Teneriffa: Süden und Westen von Golf del Sur bis Los Gigantes, mit den Teide-Auffahrten über Vilaflor und Chío.</span></div>
+        <div><b>Gut fürs Rad</b><span>Starke Anstiege, aber windiger oder wolkiger: El Médano, Porís und die Ostküste von Gran Canaria (Agüimes, Ingenio), der Norden von Teneriffa (Puerto de la Cruz, La Orotava) und der Nordwesten von Gran Canaria.</span></div>
+        <div><b>Stadtlage</b><span>Santa Cruz, La Laguna, Candelaria und Las Palmas. Gute Anstiege gibt es auch hier, aber erst nach Stadtverkehr.</span></div>
+      </div>
     </div>
     <div class="panel">
       <h2>Anfrage auf Spanisch</h2>
@@ -206,7 +228,7 @@ footer { font-size: 13px; color: var(--muted); }
     </div>
   </section>
 
-  <footer>Quellen: Milanuncios und Fotocasa, beide Provinzen, Mieten 450–2.000 €. Update täglich gegen 7:50 Uhr (Berlin). Preise laut Inserat, ohne Gewähr.</footer>
+  <footer>Quellen: Milanuncios und Fotocasa, beide Provinzen, Mieten 450–2.000 €. Update täglich gegen 7:50 Uhr (Berlin). Gesamtkosten sind Schätzungen: Nebenkosten ca. 80 €, wenn nicht inklusive; übliche Maklergebühr 1 Monatsmiete + 7 % IGIC. Preise laut Inserat, ohne Gewähr.</footer>
 </div>
 
 <script>
@@ -214,7 +236,8 @@ footer { font-size: 13px; color: var(--muted); }
   const TABS = ["top", "ask", "out", "mine"];
   const STATES = [["favorit", "Favorit"], ["angefragt", "Angefragt"], ["antwort", "Antwort da"], ["zusage", "Zusage"], ["abgesagt", "Abgesagt"]];
   const CAP = 2000, SCALE = 2500;
-  const state = { listings: [], status: new Map(), meta: null, tab: "top", isle: "all", onlyPrivate: false, sort: "rank" };
+  const state = { listings: [], status: new Map(), meta: null, tab: "top", isle: "all", bike: "all", onlyPrivate: false, sort: "rank" };
+  const BIKE = { top: "Rad: Top-Revier", gut: "Rad: gut", stadt: "Rad: Stadtlage" };
   const saveMsg = new Map();
   let db = null, canWrite = null, loaded = false;
   const writeChains = new Map();
@@ -238,10 +261,11 @@ footer { font-size: 13px; color: var(--muted); }
     const saved = JSON.parse(localStorage.getItem("radar-filters") || "{}");
     if (TABS.includes(saved.tab)) state.tab = saved.tab;
     if (["all", "TF", "GC"].includes(saved.isle)) state.isle = saved.isle;
+    if (["all", "gut", "top"].includes(saved.bike)) state.bike = saved.bike;
     state.onlyPrivate = !!saved.onlyPrivate;
     if (["rank", "price", "new"].includes(saved.sort)) state.sort = saved.sort;
   } catch {}
-  function remember() { try { localStorage.setItem("radar-filters", JSON.stringify({ tab: state.tab, isle: state.isle, onlyPrivate: state.onlyPrivate, sort: state.sort })); } catch {} }
+  function remember() { try { localStorage.setItem("radar-filters", JSON.stringify({ tab: state.tab, isle: state.isle, bike: state.bike, onlyPrivate: state.onlyPrivate, sort: state.sort })); } catch {} }
 
   // Countdown to 1 January 2027 (viewer's local date)
   (() => { const now = new Date(); const t = new Date(2027, 0, 1); const days = Math.ceil((t - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5); $("st-days").textContent = days > 0 ? days + " Tage" : "läuft"; })();
@@ -249,11 +273,13 @@ footer { font-size: 13px; color: var(--muted); }
   function syncControls() {
     for (const b of $("tabs").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.tab === state.tab));
     for (const b of $("isles").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.isle === state.isle));
+    for (const b of $("bikes").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.bike === state.bike));
     $("only-private").checked = state.onlyPrivate;
     $("sort").value = state.sort;
   }
   $("tabs").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.tab = b.dataset.tab; remember(); syncControls(); render(); });
   $("isles").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.isle = b.dataset.isle; remember(); syncControls(); render(); });
+  $("bikes").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.bike = b.dataset.bike; remember(); syncControls(); render(); });
   $("only-private").addEventListener("change", (e) => { state.onlyPrivate = e.target.checked; remember(); render(); });
   $("sort").addEventListener("change", (e) => { state.sort = e.target.value; remember(); render(); });
   $("copy").addEventListener("click", async () => {
@@ -273,15 +299,17 @@ footer { font-size: 13px; color: var(--muted); }
       else if (l.tier !== state.tab) return false;
       if (state.isle !== "all" && l.isle !== state.isle) return false;
       if (state.onlyPrivate && !l.private) return false;
+      if (state.bike === "top" && l.bike !== "top") return false;
+      if (state.bike === "gut" && l.bike !== "top" && l.bike !== "gut") return false;
       return true;
     });
-    const by = { rank: (a, b) => (a.rank ?? 999) - (b.rank ?? 999), price: (a, b) => (a.price ?? 0) - (b.price ?? 0), new: (a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)) || (a.rank ?? 999) - (b.rank ?? 999) };
+    const by = { rank: (a, b) => (a.rank ?? 999) - (b.rank ?? 999), price: (a, b) => (a.total ?? a.price ?? 0) - (b.total ?? b.price ?? 0), new: (a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)) || (a.rank ?? 999) - (b.rank ?? 999) };
     return rows.sort(by[state.sort]);
   }
 
   function meter(l) {
-    const price = Number(l.price) || 0, est = Number(l.estMonth) || 0;
-    const wrap = h("div", { class: "meter", role: "img", "aria-label": `${eur(price)}${est > price ? `, real ca. ${eur(est)}` : ""} von ${eur(CAP)} Obergrenze` });
+    const price = Number(l.total ?? l.price) || 0, est = l.feeUnknown ? Number(l.worstTotal) || 0 : 0;
+    const wrap = h("div", { class: "meter", role: "img", "aria-label": `${eur(price)}${est > price ? `, mit üblicher Maklergebühr ca. ${eur(est)}` : ""} von ${eur(CAP)} Obergrenze` });
     wrap.append(h("span", { class: "fill", style: `width:${Math.min(price / SCALE, 1) * 100}%` }));
     if (est > price) wrap.append(h("span", { class: "extra", style: `left:${Math.min(price / SCALE, 1) * 100}%;width:${(Math.min(est / SCALE, 1) - Math.min(price / SCALE, 1)) * 100}%` }));
     wrap.append(h("span", { class: "cap" }));
@@ -326,21 +354,27 @@ footer { font-size: 13px; color: var(--muted); }
     if (l.private) tags.push(h("span", { class: "tag good" }, "privat · keine Maklergebühr"));
     if (l.pool) tags.push(h("span", { class: "tag" }, "Pool"));
     if (l.online === false) tags.push(h("span", { class: "tag warn" }, "offline?"));
-    if (Number(l.estMonth) > CAP) tags.push(h("span", { class: "tag warn" }, "real über 2.000 €"));
+    if (l.feeUnknown && Number(l.worstTotal) > CAP) tags.push(h("span", { class: "tag warn" }, "Maklergebühr offen"));
+    if (l.feeUnknown && Number(l.worstTotal) <= CAP) tags.push(h("span", { class: "tag good" }, "passt auch mit Maklergebühr"));
     const hist = Array.isArray(l.priceHistory) && l.priceHistory.length ? l.priceHistory[l.priceHistory.length - 1] : null;
     const links = (Array.isArray(l.links) ? l.links : []).map((x) => { const u = safeUrl(x && x.url); return u ? h("a", { href: u, target: "_blank", rel: "noopener" }, (x.label || "Inserat") + " ↗") : null; });
     return h("article", { class: "card" + (l.online === false ? " is-offline" : "") },
-      h("div", { class: "card-head" }, h("span", { class: "plate", title: l.isle === "TF" ? "Teneriffa" : "Gran Canaria" }, l.isle || "?"), h("h3", {}, l.place || "")),
+      h("div", { class: "card-head" }, h("span", { class: "plate", title: l.isle === "TF" ? "Teneriffa" : "Gran Canaria" }, l.isle || "?"), h("h3", {}, l.place || ""),
+        BIKE[l.bike] ? h("span", { class: "bike " + l.bike }, BIKE[l.bike]) : null),
       tags.length ? h("div", { class: "tags" }, tags) : null,
       h("div", {},
-        h("div", { class: "price" }, h("strong", {}, l.price ? eur(l.price) : "–"), h("span", { class: "per" }, "/ Monat"),
-          hist && hist[1] ? h("span", { class: "was" }, eur(hist[1])) : null,
-          l.priceNote ? h("span", { class: "pnote" }, l.priceNote) : null),
-        l.price ? meter(l) : null),
+        h("div", { class: "price" }, h("strong", {}, (l.feeUnknown ? "ab " : "≈ ") + eur(l.total ?? l.price)), h("span", { class: "per" }, "gesamt / Monat"),
+          hist && hist[1] ? h("span", { class: "was" }, "Miete vorher " + eur(hist[1])) : null,
+          h("span", { class: "pnote" }, [l.costNote, l.priceNote].filter(Boolean).join(" · ")),
+          l.feeUnknown ? (Number(l.worstTotal) <= CAP
+            ? h("span", { class: "fee ok" }, `Mit üblicher Gebühr ca. ${eur(l.worstTotal)}, also noch unter 2.000 €.`)
+            : h("span", { class: "fee" }, Number(l.maxFee) > 0 ? `Passt nur bei Maklergebühr bis ${eur(l.maxFee)} (üblich wären ca. ${eur(Number(l.worstTotal) - Number(l.total))}).` : "Passt nur ganz ohne Maklergebühr.")) : null),
+        (l.total ?? l.price) ? meter(l) : null),
       h("dl", { class: "facts" },
         l.flat ? h("div", {}, h("dt", {}, "Wohnung"), h("dd", {}, l.flat)) : null,
         l.terms ? h("div", {}, h("dt", {}, "Mietdauer"), h("dd", {}, l.terms)) : null,
         l.provider ? h("div", {}, h("dt", {}, "Anbieter"), h("dd", {}, l.provider)) : null,
+        l.bikeNote ? h("div", {}, h("dt", {}, "Radlage"), h("dd", {}, l.bikeNote)) : null,
         l.firstSeen ? h("div", {}, h("dt", {}, "Gefunden"), h("dd", { class: "num" }, fmtDate(l.firstSeen) + (l.lastSeen && l.lastSeen !== l.firstSeen ? " · zuletzt online " + fmtDate(l.lastSeen) : ""))) : null),
       l.note ? h("p", { class: "note" + (l.tier === "out" ? " crit" : "") }, l.note) : null,
       links.length ? h("div", { class: "links" }, links) : null,
@@ -363,7 +397,7 @@ footer { font-size: 13px; color: var(--muted); }
     if (!rows.length) {
       const msg = state.tab === "mine"
         ? ["Noch nichts markiert", "Markiere Wohnungen als Favorit oder angefragt. Sie erscheinen dann hier."]
-        : state.listings.length ? ["Keine Treffer mit diesen Filtern", "Stell die Insel auf „Beide Inseln“ oder schalte „Nur privat“ aus."]
+        : state.listings.length ? ["Keine Treffer mit diesen Filtern", "Lockere die Radlage, stell die Insel auf „Beide Inseln“ oder schalte „Nur privat“ aus."]
         : ["Noch keine Wohnungen", "Die Liste füllt sich beim nächsten täglichen Update."];
       list.replaceChildren(h("div", { class: "empty" }, h("strong", {}, msg[0]), msg[1]));
       return;

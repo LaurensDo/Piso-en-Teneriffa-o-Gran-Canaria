@@ -6,91 +6,95 @@
   "sources": [
    "Milanuncios",
    "Fotocasa"
-  ]
+  ],
+  "nkEstimate": 80
  },
  "listings": [
   {
-   "key": "fc-184892391",
+   "key": "fc-189634737",
    "tier": "top",
    "rank": 1,
    "isle": "TF",
+   "place": "Arona-Ort · Finca im Süden",
+   "flat": "2 Schlafzimmer · Garten · Pool · Parkplatz",
+   "terms": "mind. 1 Monat, max. 2 Monate",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Liegt auf ca. 600 m direkt an der Straße über Vilaflor zum Teide.",
+   "note": "Im Inseratskopf stehen 1.300 €, im Text 1.500 €. Ich rechne mit 1.500 €. Laut Anbieter ist eventuell auch ein Auto verfügbar.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/aire-acondicionado-parking-jardin-patio-piscina-amueblado/189634737/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": false,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-599524316",
+   "tier": "top",
+   "rank": 2,
+   "isle": "TF",
+   "place": "Costa Adeje · San Eugenio",
+   "flat": "3 Schlafzimmer · 2 Bäder · 82 m² · Pool",
+   "terms": "ganzer Monat 1.200 €, auch wochenweise",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "Ferienwohnung mit Preisliste (Woche 450 €, Monat 1.200 €). Frag, ob der Monatspreis auch im Januar gilt.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-vacaciones-en-san-eugenio-tenerife/costa-adeje-c-suecia-599524316.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1200,
+   "total": 1200,
+   "feeUnknown": false,
+   "costNote": "Miete 1.200 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-184892391",
+   "tier": "top",
+   "rank": 3,
+   "isle": "TF",
    "place": "Santa Cruz · Zentrum (Duggi/Rambla)",
-   "price": 1250,
-   "priceNote": "inkl. Bettwäsche und Reinigung",
    "flat": "2 Schlafzimmer · 80 m² · Glasfaser",
    "terms": "nur monatsweise",
    "provider": "Privat",
    "private": true,
    "pool": false,
-   "note": "Inserat nennt Sommer-Gäste als Zielgruppe, Januar direkt anfragen. Schlafzimmer innenliegend (mit Fenster), kein Balkon.",
+   "bike": "stadt",
+   "bikeNote": "Stadtlage. Erst hoch nach La Laguna, dann Anaga oder über La Esperanza zum Teide.",
+   "note": "Laut Inserat ausdrücklich ohne Agenturkosten. Richtet sich an Sommer-Gäste, Januar anfragen. Kein Balkon.",
    "links": [
     {
      "label": "Fotocasa",
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/ascensor-amueblado/184892391/d"
     }
    ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "fc-187728705",
-   "tier": "top",
-   "rank": 2,
-   "isle": "TF",
-   "place": "Porís de Abona (Arico) · Südostküste",
-   "price": 1200,
-   "priceNote": "inkl. Wasser, Strom und WLAN",
-   "flat": "2 Schlafzimmer: 1 Doppelbett + 2 Einzelbetten · 72 m² · Terrasse · Parkplatz",
-   "terms": "mind. 1 Monat, max. 10",
-   "provider": "Agentur Ifara Home",
-   "private": false,
-   "pool": true,
-   "note": "Ruhiges Fischerdorf, Auto nötig. Agenturgebühr erfragen.",
-   "links": [
-    {
-     "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/parking-terraza-ascensor-patio-amueblado-internet-piscina/187728705/d"
-    },
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arico-tenerife/arico-560484597.htm"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "ma-601957797",
-   "tier": "top",
-   "rank": 3,
-   "isle": "TF",
-   "place": "Santa Cruz · Zentrum",
-   "price": 1350,
-   "priceNote": "inkl. Nebenkosten",
-   "flat": "2 Schlafzimmer: Doppelbett + Einzelbett · 70 m² · Klimaanlage",
-   "terms": "mind. 1 Monat, max. 10",
-   "provider": "Agentur Atrium",
-   "private": false,
-   "pool": false,
-   "note": "Dieselbe Agentur hat eine 75-m²-Variante für 1.500 €.",
-   "links": [
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-601957797.htm"
-    },
-    {
-     "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/amueblado-television/190033150/d"
-    },
-    {
-     "label": "Variante 75 m²",
-     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/centro-551805025.htm"
-    }
-   ],
+   "priceNote": "inkl. Bettwäsche und Reinigung",
+   "price": 1250,
+   "total": 1330,
+   "feeUnknown": false,
+   "costNote": "Miete 1.250 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -102,14 +106,14 @@
    "rank": 4,
    "isle": "GC",
    "place": "Las Palmas · Las Canteras (Sargento Llagas)",
-   "price": 1500,
-   "priceNote": "all-in: Nebenkosten, WLAN, Gemeinde",
    "flat": "Dachwohnung 44 m² · 2 Zimmer mit Tür: Doppelbett + kleines Bett · Meerblick",
    "terms": "1–6 Monate, flexibel nach Monaten",
    "provider": "Privat",
    "private": true,
    "pool": false,
-   "note": "Ideal für 2 Personen, für 3–4 zu eng. Aufzug fährt nur bis zum 6. Stock.",
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
+   "note": "All-in-Preis. Ideal für 2, für 3–4 zu eng. Aufzug nur bis zum 6. Stock.",
    "links": [
     {
      "label": "Milanuncios",
@@ -120,31 +124,387 @@
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/parking-jardin-patio-amueblado-television-internet/190965219/d"
     }
    ],
+   "priceNote": "",
+   "price": 1500,
+   "total": 1500,
+   "feeUnknown": false,
+   "costNote": "Miete 1.500 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
    "priceHistory": []
   },
   {
-   "key": "fc-183165490",
-   "tier": "top",
+   "key": "fc-190896168",
+   "tier": "ask",
    "rank": 5,
    "isle": "GC",
-   "place": "Las Palmas · Santa Catalina / Canteras",
-   "price": 1200,
-   "priceNote": "",
-   "flat": "2 Doppelzimmer · 2 Bäder · 75 m² · Balkon · Aufzug",
-   "terms": "monats- oder wochenweise, max. 6 Monate",
-   "provider": "Agentur RV Gestiones",
+   "place": "San Agustín · Playa del Águila",
+   "flat": "2 Schlafzimmer · 55 m² · 1. Linie · Aufzug",
+   "terms": "Saisonmiete bis Mai 2027, Mindestdauer nicht genannt",
+   "provider": "Agentur J. C. Domínguez",
    "private": false,
-   "pool": false,
-   "note": "Älteres Inserat, noch online. Verfügbarkeit prüfen.",
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Selbst mit voller Maklergebühr knapp unter 2.000 €. Wasser und Internet inklusive, Strom extra.",
    "links": [
     {
      "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/ascensor-amueblado/183165490/d"
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/ascensor-amueblado-piscina/190896168/d"
+    },
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-615962722.htm"
     }
    ],
+   "priceNote": "",
+   "price": 900,
+   "total": 980,
+   "feeUnknown": true,
+   "worstTotal": 1943,
+   "maxFee": 1020,
+   "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-597057750",
+   "tier": "ask",
+   "rank": 6,
+   "isle": "TF",
+   "place": "Alcalá (Guía de Isora) · Westküste",
+   "flat": "2 Schlafzimmer · 75 m² · sonniger Patio",
+   "terms": "„nur Saisonvertrag“, Mindestdauer nicht genannt",
+   "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Westküste. Der Anstieg über Chío zum Teide beginnt fast vor der Tür.",
+   "note": "Selbst mit voller Maklergebühr knapp unter 2.000 €.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-alcala-tenerife/alcala-guia-de-isora-c-alfonso-can-597057750.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 900,
+   "total": 980,
+   "feeUnknown": true,
+   "worstTotal": 1943,
+   "maxFee": 1020,
+   "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190706321",
+   "tier": "ask",
+   "rank": 7,
+   "isle": "TF",
+   "place": "Las Chafiras (San Miguel) · Süden",
+   "flat": "2 Zimmer · 49 m² · kleine Terrasse",
+   "terms": "ab 1. Oktober, max. 6 Monate",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Flacher Süden nahe Flughafen. Anstiege über San Miguel nach Vilaflor.",
+   "note": "Sehr günstig. Frag, ob ein einzelner Monat geht; verlangt werden Kaution plus Vorauszahlung.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/las-chafiras/190706321/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 795,
+   "total": 875,
+   "feeUnknown": false,
+   "costNote": "Miete 795 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-588831375",
+   "tier": "ask",
+   "rank": 8,
+   "isle": "TF",
+   "place": "Playa San Juan · Westküste",
+   "flat": "2 große Schlafzimmer · 80 m² · 40 m² Terrasse",
+   "terms": "„apartamento de temporada“, Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Westküste. Der Anstieg über Chío zum Teide beginnt fast vor der Tür.",
+   "note": "",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-playa-de-san-juan-tenerife/playa-de-san-juan-tenerife-588831375.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1290,
+   "total": 1370,
+   "feeUnknown": false,
+   "costNote": "Miete 1.290 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190149538",
+   "tier": "ask",
+   "rank": 9,
+   "isle": "GC",
+   "place": "Maspalomas · San Fernando",
+   "flat": "Maisonette · 2 Doppelzimmer + Ankleide · 80 m² · Sonnenterrasse",
+   "terms": "„por temporada“, Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Wasser und Strom bis 80 € inklusive.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/amueblado/190149538/d"
+    },
+    {
+     "label": "Fotocasa (2. Inserat)",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/amueblado/190225975/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1400,
+   "total": 1400,
+   "feeUnknown": false,
+   "costNote": "Miete 1.400 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-188831802",
+   "tier": "ask",
+   "rank": 10,
+   "isle": "GC",
+   "place": "Playa del Inglés · San Fernando",
+   "flat": "2 Schlafzimmer · 75 m² · Parkplatz · Aufzug",
+   "terms": "Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Strom, Wasser, WLAN und Klimaanlage inklusive.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-ascensor-patio-piscina-amueblado/188831802/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1500,
+   "total": 1500,
+   "feeUnknown": false,
+   "costNote": "Miete 1.500 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190961945",
+   "tier": "ask",
+   "rank": 11,
+   "isle": "GC",
+   "place": "Maspalomas · Meloneras",
+   "flat": "Bungalow-Maisonette · 2 Zimmer · 2 Bäder · Terrasse",
+   "terms": "frei 01.10.–30.06., Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-jardin-terraza-piscina-amueblado/190961945/d"
+    },
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-maspalomas-las_palmas/maspalomas-c-aries-617080918.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": false,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-189348450",
+   "tier": "ask",
+   "rank": 12,
+   "isle": "TF",
+   "place": "Playa de las Américas · Compostela Beach",
+   "flat": "2 Doppelzimmer · 75 m² · Terrasse",
+   "terms": "Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/jardin-ascensor-patio-piscina-amueblado/189348450/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1650,
+   "total": 1730,
+   "feeUnknown": false,
+   "costNote": "Miete 1.650 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-184074438",
+   "tier": "ask",
+   "rank": 13,
+   "isle": "GC",
+   "place": "Playa del Inglés · Strand-Bungalow",
+   "flat": "2 Schlafzimmer · 70 m² · Solarium · Garage",
+   "terms": "Winterpreis 2.000 €/Monat",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Passt nur, wenn Nebenkosten im Winterpreis enthalten sind. Nachfragen.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-jardin-piscina-amueblado/184074438/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 2000,
+   "total": 2000,
+   "feeUnknown": false,
+   "costNote": "Miete 2.000 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190149392",
+   "tier": "ask",
+   "rank": 14,
+   "isle": "GC",
+   "place": "Playa del Inglés · nahe Yumbo",
+   "flat": "1 Schlafzimmer + Schlafsofa · 40 m²",
+   "terms": "Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Nur für 2 Personen (Bett + Schlafsofa). Fahrradverleih 2 Minuten entfernt.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/piscina-amueblado/190149392/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1000,
+   "total": 1000,
+   "feeUnknown": false,
+   "costNote": "Miete 1.000 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-189764726",
+   "tier": "ask",
+   "rank": 15,
+   "isle": "TF",
+   "place": "Puerto de la Cruz · Playa Jardín",
+   "flat": "2 Schlafzimmer · 120 m² · 2 Terrassen · Garage",
+   "terms": "„por temporada“, Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "gut",
+   "bikeNote": "Nordküste. Teide-Anstieg über La Orotava, im Januar aber öfter wolkig und feucht.",
+   "note": "Kontakt per WhatsApp, 1 Monat Kaution.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/patio-piscina-amueblado/189764726/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1350,
+   "total": 1350,
+   "feeUnknown": false,
+   "costNote": "Miete 1.350 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190683345",
+   "tier": "ask",
+   "rank": 16,
+   "isle": "GC",
+   "place": "Ingenio (Sequero)",
+   "flat": "Chalet · 2 Schlafzimmer · 198 m²",
+   "terms": "„alquilo por meses“",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Ostküste, windig. Anstiege nach Agüimes, Temisas und Cazadores in der Nähe.",
+   "note": "Sehr knappe Beschreibung. Fotos und Konditionen erfragen.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/ingenio/terraza-amueblado/190683345/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 800,
+   "total": 880,
+   "feeUnknown": false,
+   "costNote": "Miete 800 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -152,18 +512,18 @@
   },
   {
    "key": "ma-609226735",
-   "tier": "top",
-   "rank": 6,
+   "tier": "ask",
+   "rank": 17,
    "isle": "GC",
-   "place": "Playa de Vargas (Agüimes) · Ostküste",
-   "price": 1100,
-   "priceNote": "inkl. WLAN",
+   "place": "Playa de Vargas (Agüimes)",
    "flat": "2 Doppelzimmer · 2 Bäder · 120 m² · Terrasse",
    "terms": "monatsweise, max. 6 Monate",
    "provider": "Agentur Falena",
    "private": false,
    "pool": false,
-   "note": "Windsurf-Spot, ruhig. Auto nötig, Flughafen nah.",
+   "bike": "gut",
+   "bikeNote": "Ostküste, windig. Anstiege nach Agüimes, Temisas und Cazadores in der Nähe.",
+   "note": "Gebühr wird im Inserat nicht erwähnt (nur Kaution). Nachfragen.",
    "links": [
     {
      "label": "Milanuncios",
@@ -174,135 +534,115 @@
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/aguimes/terraza-amueblado/190432876/d"
     }
    ],
+   "priceNote": "",
+   "price": 1100,
+   "total": 1100,
+   "feeUnknown": true,
+   "worstTotal": 2277,
+   "maxFee": 900,
+   "costNote": "Miete 1.100 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
    "priceHistory": []
   },
   {
-   "key": "ma-617320108",
-   "tier": "top",
-   "rank": 7,
+   "key": "fc-190646608",
+   "tier": "ask",
+   "rank": 18,
    "isle": "TF",
-   "place": "Santa Cruz · Residencial Anaga",
-   "price": 1800,
-   "priceNote": "+ Nebenkosten (Tarif für 1–3 Monate)",
-   "flat": "Maisonette · 2 Doppelzimmer · 2 Bäder · 122 m²",
-   "terms": "mind. 1 Monat · frei 08.11.–26.06.",
-   "provider": "Agentur",
-   "private": false,
+   "place": "Candelaria · Playa La Viuda",
+   "flat": "1 Schlafzimmer + Schlafsofa · 50 m²",
+   "terms": "1–3 Monate",
+   "provider": "Privat",
+   "private": true,
    "pool": false,
-   "note": "Grund der Befristung muss nachgewiesen werden, z. B. Telearbeit.",
+   "bike": "stadt",
+   "bikeNote": "Ostküste, windig. Anstieg über Arafo zum Teide in der Nähe.",
+   "note": "Nur für 2 Personen (Bett + Schlafsofa).",
    "links": [
     {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-617320108.htm"
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/candelaria/ascensor-patio-amueblado/190646608/d"
     }
    ],
+   "priceNote": "",
+   "price": 950,
+   "total": 1030,
+   "feeUnknown": false,
+   "costNote": "Miete 950 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
    "priceHistory": []
   },
   {
-   "key": "ma-523917709",
-   "tier": "top",
-   "rank": 8,
-   "isle": "GC",
-   "place": "Las Palmas · 2 Min. zu Las Canteras",
-   "price": 1800,
-   "priceNote": "",
-   "flat": "2 Schlafzimmer · 2 Bäder · 90 m² · Neubau im Souterrain",
-   "terms": "monatsweise",
-   "provider": "Agentur",
+   "key": "ma-601957797",
+   "tier": "ask",
+   "rank": 19,
+   "isle": "TF",
+   "place": "Santa Cruz · Zentrum",
+   "flat": "2 Schlafzimmer: Doppelbett + Einzelbett · 70 m² · Klimaanlage",
+   "terms": "mind. 1 Monat, max. 10",
+   "provider": "Agentur Atrium",
    "private": false,
    "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage. Erst hoch nach La Laguna, dann Anaga oder über La Esperanza zum Teide.",
    "note": "",
    "links": [
     {
      "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-523917709.htm"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "ma-545752732",
-   "tier": "top",
-   "rank": 9,
-   "isle": "GC",
-   "place": "Gáldar · Nordwesten",
-   "price": 1950,
-   "priceNote": "inkl. Nebenkosten bis 150 €",
-   "flat": "Haus · 3 Doppelzimmer · bis 6 Personen",
-   "terms": "wochen- oder monatsweise",
-   "provider": "Agentur Canarias Paradise",
-   "private": false,
-   "pool": false,
-   "note": "Liegt an der Schmerzgrenze.",
-   "links": [
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-casas-en-sobradillo-(galdar)-las_palmas/galdar-545752732.htm"
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-601957797.htm"
     },
     {
      "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/galdar/terraza-amueblado-television/186729195/d"
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/amueblado-television/190033150/d"
+    },
+    {
+     "label": "Variante 75 m² (1.500 €)",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/centro-551805025.htm"
     }
    ],
+   "priceNote": "",
+   "price": 1350,
+   "total": 1350,
+   "feeUnknown": true,
+   "worstTotal": 2794,
+   "maxFee": 650,
+   "costNote": "Miete 1.350 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
    "priceHistory": []
   },
   {
-   "key": "ma-511056649",
-   "tier": "top",
-   "rank": 10,
-   "isle": "TF",
-   "place": "El Médano · Süden",
-   "price": 2000,
-   "priceNote": "laut Inserat verhandelbar",
-   "flat": "3 Schlafzimmer · 2 Bäder · 70 m²",
-   "terms": "tage- oder monatsweise",
-   "provider": "Agentur",
+   "key": "fc-183165490",
+   "tier": "ask",
+   "rank": 20,
+   "isle": "GC",
+   "place": "Las Palmas · Santa Catalina / Canteras",
+   "flat": "2 Doppelzimmer · 2 Bäder · 75 m² · Balkon",
+   "terms": "monats- oder wochenweise, max. 6 Monate",
+   "provider": "Agentur RV Gestiones",
    "private": false,
    "pool": false,
-   "note": "Kite- und Surfort, oft windig.",
-   "links": [
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-el-medano-tenerife/granadilla-de-abona-511056649.htm"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "fc-189764726",
-   "tier": "ask",
-   "rank": 11,
-   "isle": "TF",
-   "place": "Puerto de la Cruz · Playa Jardín",
-   "price": 1350,
-   "priceNote": "inkl. Nebenkosten und Internet",
-   "flat": "2 Schlafzimmer · 120 m² · 2 Terrassen · Garage",
-   "terms": "„por temporada“, Mindestdauer nicht genannt",
-   "provider": "Privat",
-   "private": true,
-   "pool": true,
-   "note": "Kontakt per WhatsApp, 1 Monat Kaution.",
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
+   "note": "",
    "links": [
     {
      "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/patio-piscina-amueblado/189764726/d"
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/ascensor-amueblado/183165490/d"
     }
    ],
+   "priceNote": "",
+   "price": 1200,
+   "total": 1280,
+   "feeUnknown": true,
+   "worstTotal": 2564,
+   "maxFee": 720,
+   "costNote": "Miete 1.200 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -311,23 +651,30 @@
   {
    "key": "ma-614618678",
    "tier": "ask",
-   "rank": 12,
+   "rank": 21,
    "isle": "TF",
    "place": "Santa Cruz · Tomé Cano",
-   "price": 1150,
-   "priceNote": "+ Nebenkosten",
    "flat": "2 Schlafzimmer · 56 m² · Terrasse",
    "terms": "Kurzzeit, Konditionen nicht genannt",
    "provider": "Agentur",
    "private": false,
    "pool": true,
-   "note": "Pool und Sportanlagen im Gebäude.",
+   "bike": "stadt",
+   "bikeNote": "Stadtlage. Erst hoch nach La Laguna, dann Anaga oder über La Esperanza zum Teide.",
+   "note": "",
    "links": [
     {
      "label": "Milanuncios",
      "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-614618678.htm"
     }
    ],
+   "priceNote": "",
+   "price": 1150,
+   "total": 1230,
+   "feeUnknown": true,
+   "worstTotal": 2460,
+   "maxFee": 770,
+   "costNote": "Miete 1.150 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -336,16 +683,16 @@
   {
    "key": "ma-611727783",
    "tier": "ask",
-   "rank": 13,
+   "rank": 22,
    "isle": "TF",
    "place": "Puerto de la Cruz",
-   "price": 1300,
-   "priceNote": "",
    "flat": "2 Schlafzimmer · 80 m² Privatterrasse",
    "terms": "„corta temporada“",
    "provider": "Agentur Basualto",
    "private": false,
    "pool": true,
+   "bike": "gut",
+   "bikeNote": "Nordküste. Teide-Anstieg über La Orotava, im Januar aber öfter wolkig und feucht.",
    "note": "",
    "links": [
     {
@@ -357,6 +704,13 @@
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/terraza-ascensor-amueblado-piscina/190562098/d"
     }
    ],
+   "priceNote": "",
+   "price": 1300,
+   "total": 1380,
+   "feeUnknown": true,
+   "worstTotal": 2771,
+   "maxFee": 620,
+   "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -365,16 +719,16 @@
   {
    "key": "fc-190804977",
    "tier": "ask",
-   "rank": 14,
+   "rank": 23,
    "isle": "TF",
    "place": "El Médano",
-   "price": 1200,
-   "priceNote": "",
-   "flat": "Dachwohnung · 2 Schlafzimmer · 50 m² Terrasse · Aufzug",
+   "flat": "Dachwohnung · 2 Schlafzimmer · 50 m² Terrasse",
    "terms": "„por temporada“",
    "provider": "Agentur Credycasa",
    "private": false,
    "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
    "note": "",
    "links": [
     {
@@ -382,106 +736,13 @@
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/terraza-ascensor-amueblado/190804977/d"
     }
    ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "ma-611704711",
-   "tier": "ask",
-   "rank": 15,
-   "isle": "TF",
-   "place": "El Médano · 2 Min. zum Strand",
-   "price": 1800,
    "priceNote": "",
-   "flat": "Reihenhaus · 2 Doppelzimmer für bis zu 4 Personen · 2 Bäder · Garten",
-   "terms": "nur Kurzzeit",
-   "provider": "Agentur",
-   "private": false,
-   "pool": false,
-   "note": "",
-   "links": [
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-casas-en-el-medano-tenerife/granadilla-de-abona-611704711.htm"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "ma-548079410",
-   "tier": "ask",
-   "rank": 16,
-   "isle": "TF",
-   "place": "La Tejita (El Médano)",
-   "price": 1900,
-   "priceNote": "",
-   "flat": "2 Schlafzimmer · 95 m² · 1. Linie · Garage",
-   "terms": "„temporadas cortas“, Verfügbarkeit anfragen",
-   "provider": "Agentur",
-   "private": false,
-   "pool": true,
-   "note": "",
-   "links": [
-    {
-     "label": "Milanuncios",
-     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-granadilla-de-abona-tenerife/granadilla-de-abona-548079410.htm"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "fc-190646608",
-   "tier": "ask",
-   "rank": 17,
-   "isle": "TF",
-   "place": "Candelaria · Playa La Viuda",
-   "price": 950,
-   "priceNote": "+ Nebenkosten (gering)",
-   "flat": "1 Schlafzimmer + Schlafsofa · 50 m² · Blick auf den Hafen",
-   "terms": "1–3 Monate",
-   "provider": "Privat",
-   "private": true,
-   "pool": false,
-   "note": "Nur für 2 Personen geeignet (Bett + Schlafsofa).",
-   "links": [
-    {
-     "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/candelaria/ascensor-patio-amueblado/190646608/d"
-    }
-   ],
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
-   "online": true,
-   "priceHistory": []
-  },
-  {
-   "key": "fc-190896168",
-   "tier": "ask",
-   "rank": 18,
-   "isle": "GC",
-   "place": "San Agustín · Playa del Águila",
-   "price": 900,
-   "priceNote": "",
-   "flat": "2 Schlafzimmer · 55 m² · 1. Linie · Aufzug",
-   "terms": "Saisonmiete bis Mai 2027, Mindestdauer nicht genannt",
-   "provider": "Agentur J. C. Domínguez",
-   "private": false,
-   "pool": true,
-   "note": "Für die Lage sehr günstig. Konditionen genau prüfen.",
-   "links": [
-    {
-     "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/ascensor-amueblado-piscina/190896168/d"
-    }
-   ],
+   "price": 1200,
+   "total": 1280,
+   "feeUnknown": true,
+   "worstTotal": 2564,
+   "maxFee": 720,
+   "costNote": "Miete 1.200 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -490,16 +751,16 @@
   {
    "key": "fc-190860881",
    "tier": "ask",
-   "rank": 19,
+   "rank": 24,
    "isle": "GC",
    "place": "Las Palmas · Santa Catalina",
-   "price": 1050,
-   "priceNote": "",
    "flat": "2 Schlafzimmer · 78 m²",
    "terms": "„de forma temporal“",
    "provider": "Agentur Remax",
    "private": false,
    "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
    "note": "",
    "links": [
     {
@@ -507,31 +768,211 @@
      "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/amueblado/190860881/d"
     }
    ],
+   "priceNote": "",
+   "price": 1050,
+   "total": 1130,
+   "feeUnknown": true,
+   "worstTotal": 2254,
+   "maxFee": 870,
+   "costNote": "Miete 1.050 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
    "priceHistory": []
   },
   {
-   "key": "fc-190683345",
+   "key": "ma-617320108",
    "tier": "ask",
-   "rank": 20,
-   "isle": "GC",
-   "place": "Ingenio (Sequero)",
-   "price": 800,
-   "priceNote": "",
-   "flat": "Chalet · 2 Schlafzimmer · 198 m²",
-   "terms": "„alquilo por meses“",
-   "provider": "Privat",
-   "private": true,
+   "rank": 25,
+   "isle": "TF",
+   "place": "Santa Cruz · Residencial Anaga",
+   "flat": "Maisonette · 2 Doppelzimmer · 2 Bäder · 122 m²",
+   "terms": "mind. 1 Monat · frei 08.11.–26.06.",
+   "provider": "Agentur",
+   "private": false,
    "pool": false,
-   "note": "Sehr knappe Beschreibung. Fotos und Konditionen erfragen.",
+   "bike": "stadt",
+   "bikeNote": "Stadtlage. Erst hoch nach La Laguna, dann Anaga oder über La Esperanza zum Teide.",
+   "note": "Tarif für 1–3 Monate. Passt nur ohne Maklergebühr.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-617320108.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1800,
+   "total": 1880,
+   "feeUnknown": true,
+   "worstTotal": 3806,
+   "maxFee": 120,
+   "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-523917709",
+   "tier": "ask",
+   "rank": 26,
+   "isle": "GC",
+   "place": "Las Palmas · nahe Las Canteras",
+   "flat": "2 Schlafzimmer · 2 Bäder · 90 m²",
+   "terms": "monatsweise",
+   "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
+   "note": "Passt nur ohne Maklergebühr.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-523917709.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1800,
+   "total": 1880,
+   "feeUnknown": true,
+   "worstTotal": 3806,
+   "maxFee": 120,
+   "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-545752732",
+   "tier": "ask",
+   "rank": 27,
+   "isle": "GC",
+   "place": "Gáldar · Nordwesten",
+   "flat": "Haus · 3 Doppelzimmer · bis 6 Personen",
+   "terms": "wochen- oder monatsweise",
+   "provider": "Agentur Canarias Paradise",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Nordwesten. Küstenstraße nach Agaete und Anstieg nach Artenara, oft bewölkt.",
+   "note": "NK bis 150 € inklusive. Passt nur ohne Maklergebühr.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-casas-en-sobradillo-(galdar)-las_palmas/galdar-545752732.htm"
+    },
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/galdar/terraza-amueblado-television/186729195/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1950,
+   "total": 1950,
+   "feeUnknown": true,
+   "worstTotal": 4036,
+   "maxFee": 50,
+   "costNote": "Miete 1.950 € · NK inklusive · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-511056649",
+   "tier": "ask",
+   "rank": 28,
+   "isle": "TF",
+   "place": "El Médano",
+   "flat": "3 Schlafzimmer · 2 Bäder · 70 m²",
+   "terms": "tage- oder monatsweise",
+   "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Laut Inserat verhandelbar. Passt nur ohne Gebühr oder mit Rabatt.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-el-medano-tenerife/granadilla-de-abona-511056649.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 2000,
+   "total": 2000,
+   "feeUnknown": true,
+   "worstTotal": 4140,
+   "maxFee": 0,
+   "costNote": "Miete 2.000 € · NK inklusive · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-611704711",
+   "tier": "ask",
+   "rank": 29,
+   "isle": "TF",
+   "place": "El Médano · 2 Min. zum Strand",
+   "flat": "Reihenhaus · 2 Doppelzimmer für bis zu 4 Personen · Garten",
+   "terms": "nur Kurzzeit",
+   "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Passt nur ohne Maklergebühr.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-casas-en-el-medano-tenerife/granadilla-de-abona-611704711.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1800,
+   "total": 1880,
+   "feeUnknown": true,
+   "worstTotal": 3806,
+   "maxFee": 120,
+   "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-187728705",
+   "tier": "out",
+   "rank": 40,
+   "isle": "TF",
+   "place": "Porís de Abona (Arico)",
+   "flat": "2 Schlafzimmer · 72 m² · Pool",
+   "terms": "",
+   "provider": "Agentur Ifara Home",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Über dem Limit: Die Agentur verlangt 1 Monatsmiete Gebühr + IGIC, gesamt ca. 2.480 €.",
    "links": [
     {
      "label": "Fotocasa",
-     "url": "https://www.fotocasa.es/es/alquiler/vivienda/ingenio/terraza-amueblado/190683345/d"
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/parking-terraza-ascensor-patio-amueblado-internet-piscina/187728705/d"
+    },
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arico-tenerife/arico-560484597.htm"
     }
    ],
+   "priceNote": "",
+   "price": 1200,
+   "total": 2484,
+   "feeUnknown": false,
+   "costNote": "Miete 1.200 € · NK inklusive · Gebühr 1.284 €",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -539,25 +980,29 @@
   },
   {
    "key": "ma-567291248",
-   "tier": "ask",
-   "rank": 21,
+   "tier": "out",
+   "rank": 41,
    "isle": "GC",
    "place": "Bahía Feliz · Las Pitas",
-   "price": 1400,
-   "priceNote": "+ 1 Monatsmiete Agenturgebühr",
-   "estMonth": 2800,
-   "flat": "2 Schlafzimmer: Doppel + Einzel (Durchgangszimmer) · Garten",
-   "terms": "frei bis 31.03.2027",
+   "flat": "2 Schlafzimmer · Garten",
+   "terms": "",
    "provider": "Agentur",
    "private": false,
    "pool": false,
-   "note": "Mit Gebühr real ca. 2.800 € für einen Monat. Nur interessant, wenn die Gebühr entfällt.",
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Über dem Limit: 1 Monatsmiete Gebühr + IGIC, gesamt ca. 2.900 €.",
    "links": [
     {
      "label": "Milanuncios",
      "url": "https://www.milanuncios.com/alquiler-de-casas-en-san-bartolome-de-tirajana-las_palmas/san-bartolome-de-tirajana-567291248.htm"
     }
    ],
+   "priceNote": "",
+   "price": 1400,
+   "total": 2898,
+   "feeUnknown": false,
+   "costNote": "Miete 1.400 € · NK inklusive · Gebühr 1.498 €",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -565,19 +1010,18 @@
   },
   {
    "key": "ma-512279795",
-   "tier": "ask",
-   "rank": 22,
+   "tier": "out",
+   "rank": 42,
    "isle": "TF",
    "place": "Las Galletas / Golf del Sur (Inmogestión)",
-   "price": 1000,
-   "priceNote": "ab, + Gebühr ≈ 1 Monatsmiete + 150 € NK + 155 € Reinigung",
-   "estMonth": 2300,
-   "flat": "mehrere Wohnungen mit 2 Schlafzimmern, meist mit Pool",
-   "terms": "nur Kurzzeit, Termine je Wohnung",
-   "provider": "Agentur Inmogestión Tenerife",
+   "flat": "mehrere Wohnungen mit 2 Schlafzimmern",
+   "terms": "",
+   "provider": "Agentur Inmogestión",
    "private": false,
-   "pool": true,
-   "note": "Real ca. 2.300 € und mehr für einen Monat.",
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Flacher Süden nahe Flughafen. Anstiege über San Miguel nach Vilaflor.",
+   "note": "Über dem Limit: Gebühr ≈ 1 Monatsmiete + 100 € NK-Pauschale + 139 € Endreinigung, gesamt ab ca. 2.310 €.",
    "links": [
     {
      "label": "Las Galletas 1.000 €",
@@ -588,6 +1032,43 @@
      "url": "https://www.milanuncios.com/alquiler-de-pisos-en-san-miguel-de-abona-tenerife/san-miguel-de-abona-508937302.htm"
     }
    ],
+   "priceNote": "",
+   "price": 1000,
+   "total": 2309,
+   "feeUnknown": false,
+   "costNote": "Miete 1.000 € · NK inklusive · Gebühr 1.309 €",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-548079410",
+   "tier": "out",
+   "rank": 43,
+   "isle": "TF",
+   "place": "La Tejita (El Médano)",
+   "flat": "2 Schlafzimmer · 1. Linie · Pool",
+   "terms": "",
+   "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Schon ohne Gebühr mit Nebenkosten an der Grenze, mit jeder Gebühr darüber.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-granadilla-de-abona-tenerife/granadilla-de-abona-548079410.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1900,
+   "total": 1980,
+   "feeUnknown": true,
+   "worstTotal": 4013,
+   "maxFee": 20,
+   "costNote": "Miete 1.900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -596,12 +1077,16 @@
   {
    "key": "fc-190947360",
    "tier": "out",
-   "rank": 30,
+   "rank": 44,
    "isle": "TF",
    "place": "Torviscas (Adeje)",
-   "price": 850,
    "flat": "2 Schlafzimmer · 120 m² · Pool",
+   "terms": "",
    "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
    "note": "Betrugsverdacht: weit unter Marktpreis, Text wie aus einem Airbnb-Inserat kopiert. Niemals vorab überweisen.",
    "links": [
     {
@@ -610,9 +1095,10 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": true,
-   "pool": false,
+   "price": 850,
+   "total": 850,
+   "feeUnknown": false,
+   "costNote": "Miete 850 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -621,12 +1107,16 @@
   {
    "key": "fc-190441366",
    "tier": "out",
-   "rank": 31,
+   "rank": 45,
    "isle": "GC",
    "place": "Puerto Rico (Mogán)",
-   "price": 1500,
    "flat": "1 Schlafzimmer · 80 m²",
+   "terms": "",
    "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
    "note": "Für genau 1 Monat 2.200 € (1.500 € nur bei langer Miete).",
    "links": [
     {
@@ -635,9 +1125,170 @@
     }
    ],
    "priceNote": "",
+   "price": 2200,
+   "total": 2200,
+   "feeUnknown": false,
+   "costNote": "Miete 2.200 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "ma-616656905",
+   "tier": "out",
+   "rank": 46,
+   "isle": "TF",
+   "place": "Fañabe (Costa Adeje)",
+   "flat": "1 Schlafzimmer + Schlafsofa",
    "terms": "",
+   "provider": "Privat",
    "private": true,
    "pool": false,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "Nur im Dezember 2026 frei.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-playas-de-fanabe-tenerife/costa-adeje-616656905.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1950,
+   "total": 1950,
+   "feeUnknown": false,
+   "costNote": "Miete 1.950 € · NK inklusive · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190746734",
+   "tier": "out",
+   "rank": 47,
+   "isle": "GC",
+   "place": "San Agustín",
+   "flat": "2 Zimmer · 40 m²",
+   "terms": "",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Nur als Paket 01.10.–01.03. (5 Monate).",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/calefaccion-jardin-terraza/190746734/d"
+    },
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-agustin-614388556.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 1300,
+   "total": 1380,
+   "feeUnknown": false,
+   "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-189065546",
+   "tier": "out",
+   "rank": 48,
+   "isle": "GC",
+   "place": "Bahía Feliz · Club Montemar",
+   "flat": "2 Schlafzimmer · 110 m²",
+   "terms": "",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Nur 2–5 Monate.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-piscina-amueblado/189065546/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1980,
+   "total": 2060,
+   "feeUnknown": false,
+   "costNote": "Miete 1.980 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-190928452",
+   "tier": "out",
+   "rank": 49,
+   "isle": "TF",
+   "place": "Cabo Blanco (Arona)",
+   "flat": "2 Schlafzimmer · 79 m²",
+   "terms": "",
+   "provider": "Agentur Property Tenerife",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Liegt auf ca. 600 m direkt an der Straße über Vilaflor zum Teide.",
+   "note": "Nur als 6-Monats-Vertrag.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/cabo-blanco/190928452/d"
+    },
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arona-tenerife/arona-616452880.htm"
+    }
+   ],
+   "priceNote": "",
+   "price": 880,
+   "total": 880,
+   "feeUnknown": true,
+   "worstTotal": 1822,
+   "maxFee": 1120,
+   "costNote": "Miete 880 € · NK inklusive · Maklergebühr unbekannt",
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-09-30",
+   "online": true,
+   "priceHistory": []
+  },
+  {
+   "key": "fc-189890833",
+   "tier": "out",
+   "rank": 50,
+   "isle": "TF",
+   "place": "Adeje · Villa",
+   "flat": "3 Schlafzimmer · 240 m²",
+   "terms": "",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "Nur 6–8 Monate.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/aire-acondicionado-parking-jardin-patio-amueblado/189890833/d"
+    }
+   ],
+   "priceNote": "",
+   "price": 1800,
+   "total": 1880,
+   "feeUnknown": false,
+   "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -646,12 +1297,16 @@
   {
    "key": "ma-581485755",
    "tier": "out",
-   "rank": 32,
+   "rank": 51,
    "isle": "GC",
    "place": "Telde · La Garita",
-   "price": 900,
    "flat": "2 Schlafzimmer · 75 m²",
+   "terms": "",
    "provider": "Agentur Surinka",
+   "private": false,
+   "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
    "note": "Nur für Lehrer und Gesundheitspersonal, max. 2 Personen.",
    "links": [
     {
@@ -660,9 +1315,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 900,
+   "total": 980,
+   "feeUnknown": true,
+   "worstTotal": 1943,
+   "maxFee": 1020,
+   "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -671,12 +1329,16 @@
   {
    "key": "fc-184882441",
    "tier": "out",
-   "rank": 33,
+   "rank": 52,
    "isle": "TF",
    "place": "Cabo Blanco (Inmogestión)",
-   "price": 1050,
    "flat": "2 Schlafzimmer · 73 m² · Pool",
+   "terms": "",
    "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Liegt auf ca. 600 m direkt an der Straße über Vilaflor zum Teide.",
    "note": "Nur bis 08.01.2027 frei.",
    "links": [
     {
@@ -685,9 +1347,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 1050,
+   "total": 1050,
+   "feeUnknown": true,
+   "worstTotal": 2174,
+   "maxFee": 950,
+   "costNote": "Miete 1.050 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -696,12 +1361,16 @@
   {
    "key": "ma-616584519",
    "tier": "out",
-   "rank": 34,
+   "rank": 53,
    "isle": "GC",
    "place": "Mogán",
-   "price": 1600,
    "flat": "1 Schlafzimmer · 45 m²",
+   "terms": "",
    "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
    "note": "Erst ab 10.01.2027 frei, nur 1 Schlafzimmer.",
    "links": [
     {
@@ -710,9 +1379,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 1600,
+   "total": 1680,
+   "feeUnknown": true,
+   "worstTotal": 3392,
+   "maxFee": 320,
+   "costNote": "Miete 1.600 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -721,12 +1393,16 @@
   {
    "key": "ma-617075724",
    "tier": "out",
-   "rank": 35,
+   "rank": 54,
    "isle": "TF",
    "place": "San Miguel de Abona · Finca mit Privatpool",
-   "price": 2000,
    "flat": "3 Schlafzimmer · 182 m²",
+   "terms": "",
    "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Flacher Süden nahe Flughafen. Anstiege über San Miguel nach Vilaflor.",
    "note": "Erst ab 18.01.2027 frei.",
    "links": [
     {
@@ -735,9 +1411,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 2000,
+   "total": 2080,
+   "feeUnknown": true,
+   "worstTotal": 4220,
+   "maxFee": 0,
+   "costNote": "Miete 2.000 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -746,12 +1425,16 @@
   {
    "key": "ma-615300358",
    "tier": "out",
-   "rank": 36,
+   "rank": 55,
    "isle": "GC",
    "place": "Agaete",
-   "price": 1200,
    "flat": "2 Schlafzimmer · 105 m²",
+   "terms": "",
    "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Nordwesten. Küstenstraße nach Agaete und Anstieg nach Artenara, oft bewölkt.",
    "note": "Erst ab 08.01.2027 und mindestens 3 Monate.",
    "links": [
     {
@@ -760,9 +1443,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 1200,
+   "total": 1200,
+   "feeUnknown": true,
+   "worstTotal": 2484,
+   "maxFee": 800,
+   "costNote": "Miete 1.200 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,
@@ -771,12 +1457,16 @@
   {
    "key": "fc-190641045",
    "tier": "out",
-   "rank": 37,
+   "rank": 56,
    "isle": "GC",
    "place": "Melenara (Telde)",
-   "price": 1300,
-   "flat": "2 Schlafzimmer · 65 m² · am Strand",
+   "flat": "2 Schlafzimmer · 65 m²",
+   "terms": "",
    "provider": "Agentur",
+   "private": false,
+   "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage im wolkigeren Norden. Bis zu den Anstiegen erst durch die Stadt.",
    "note": "Nur Wintersaison, mindestens 5 Monate.",
    "links": [
     {
@@ -785,9 +1475,12 @@
     }
    ],
    "priceNote": "",
-   "terms": "",
-   "private": false,
-   "pool": false,
+   "price": 1300,
+   "total": 1380,
+   "feeUnknown": true,
+   "worstTotal": 2771,
+   "maxFee": 620,
+   "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-09-30",
    "online": true,

@@ -103,6 +103,14 @@
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/aire-acondicionado-jardin-terraza-amueblado-internet/186123606/d"
  },
+ "fotocasa:186353234": {
+  "city": "San Bartolomé de Tirajana",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1850,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-patio-piscina-amueblado/186353234/d"
+ },
  "fotocasa:186701338": {
   "city": "Mogán",
   "class": "B",
@@ -439,6 +447,14 @@
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/golf-del-sur-amarilla-golf/190135767/d"
  },
+ "fotocasa:190149392": {
+  "city": "Playa del Inglés · nahe Yumbo",
+  "class": "dash",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1000,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/piscina-amueblado/190149392/d"
+ },
  "fotocasa:190149538": {
   "city": "San Bartolomé de Tirajana",
   "class": "B",
@@ -478,6 +494,14 @@
   "last_seen": "2026-09-30",
   "price": 1750,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/aire-acondicionado-parking-terraza-ascensor-amueblado-internet/190254274/d"
+ },
+ "fotocasa:190301267": {
+  "city": "San Bartolomé de Tirajana",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1960,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-piscina/190301267/d"
  },
  "fotocasa:190358033": {
   "city": "Adeje",
@@ -871,6 +895,14 @@
   "price": 790,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/jardin-terraza-ascensor-amueblado/190918051/d"
  },
+ "fotocasa:190928203": {
+  "city": "San Bartolomé de Tirajana",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 980,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/terraza-ascensor-amueblado/190928203/d"
+ },
  "fotocasa:190928274": {
   "city": "San Bartolomé de Tirajana",
   "class": "B",
@@ -1135,6 +1167,14 @@
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-puerto-rico-las_palmas/mogan-588373933.htm"
  },
+ "milanuncios:588831375": {
+  "city": "Playa de San Juan",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1290,
+  "url": "https://www.milanuncios.com/alquiler-de-pisos-en-playa-de-san-juan-tenerife/playa-de-san-juan-tenerife-588831375.htm"
+ },
  "milanuncios:590127454": {
   "city": "Playa de los Cristianos",
   "class": "B",
@@ -1166,6 +1206,22 @@
   "last_seen": "2026-09-30",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-596868530.htm"
+ },
+ "milanuncios:597057750": {
+  "city": "Alcalá (Guía de Isora) · Westküste",
+  "class": "dash",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 900,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-alcala-tenerife/alcala-guia-de-isora-c-alfonso-can-597057750.htm"
+ },
+ "milanuncios:599524316": {
+  "city": "San Eugenio",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1200,
+  "url": "https://www.milanuncios.com/alquiler-vacaciones-en-san-eugenio-tenerife/costa-adeje-c-suecia-599524316.htm"
  },
  "milanuncios:599885204": {
   "city": "Adeje",
@@ -1279,6 +1335,22 @@
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-613012631.htm"
  },
+ "milanuncios:613835882": {
+  "city": "Los Erales",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 795,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-los-erales-tenerife/las-chafiras-613835882.htm"
+ },
+ "milanuncios:614388556": {
+  "city": "Maspalomas",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1300,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-agustin-614388556.htm"
+ },
  "milanuncios:614618678": {
   "city": "Santa Cruz de Tenerife",
   "class": "B",
@@ -1294,6 +1366,14 @@
   "last_seen": "2026-09-30",
   "price": 1450,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-agaete-las_palmas/agaete-614942517.htm"
+ },
+ "milanuncios:615300358": {
+  "city": "Agaete",
+  "class": "dash",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1200,
+  "url": "https://www.milanuncios.com/alquiler-de-pisos-en-agaete-las_palmas/agaete-615300358.htm"
  },
  "milanuncios:615306582": {
   "city": "San Eugenio",
@@ -1311,6 +1391,14 @@
   "price": 1650,
   "url": "https://www.milanuncios.com/alquiler-de-aticos-en-adeje-tenerife/adeje-615792544.htm"
  },
+ "milanuncios:615961666": {
+  "city": "San Eugenio",
+  "class": "B",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1500,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-san-eugenio-tenerife/playa-de-las-americas-c-venezuela-615961666.htm"
+ },
  "milanuncios:616287420": {
   "city": "Santa Cruz de Tenerife",
   "class": "B",
@@ -1318,6 +1406,22 @@
   "last_seen": "2026-09-30",
   "price": 790,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/barrio-de-la-salud-c-alcalde-mandill-616287420.htm"
+ },
+ "milanuncios:616584519": {
+  "city": "Mogán",
+  "class": "dash",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1600,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-mogan-las_palmas/mogan-616584519.htm"
+ },
+ "milanuncios:616656905": {
+  "city": "Fañabe (Costa Adeje)",
+  "class": "dash",
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30",
+  "price": 1950,
+  "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-playas-de-fanabe-tenerife/costa-adeje-616656905.htm"
  },
  "milanuncios:616789046": {
   "city": "Las Palmas de Gran Canaria",

@@ -9,6 +9,7 @@ import datetime, json, pathlib, re, subprocess, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scraper"))
 from filter import OTHER_RE, SHORT, STRONG, LONGONLY, snippet  # noqa: E402
+from bikezone import bike_zone  # noqa: E402
 
 TODAY = datetime.date.today().isoformat()
 SEEN = ROOT / "data" / "seen.json"
@@ -39,9 +40,16 @@ def classify(a):
     short = [p for p in SHORT if re.search(p, t)]
     beds = int(a.get("bedrooms") or 0)
     a["_strong"], a["_short"] = strong, short
+    a["_bike"] = bike_zone(" ".join(str(x) for x in (a.get("city"), a.get("zone"), a.get("title")) if x))
+    private = a.get("seller") in ("particular", "private")
+    # Gesamtkosten <= 2.000 €: Agentur-Angebote nur, wenn Miete + übliche Gebühr (1 Monat + 7 % IGIC) grob passt
+    affordable = private or a["price"] <= 1000
     if strong and beds >= 2:
-        return "A"
+        return "A" if affordable else "B"
     if strong or ((short or a.get("temporary")) and beds >= 2):
+        return "B"
+    # Radrevier-Süden: private Wohnungen mit >= 2 Zimmern auch ohne Kurzzeit-Stichwort prüfen
+    if a["_bike"] == "top" and private and beds >= 2 and re.search(r"temporada|meses|mensual|invierno|vacacional|estancia", t):
         return "B"
     return None
 
@@ -75,7 +83,7 @@ def main():
     new.sort(key=lambda a: (a["_class"], a["price"]))
     lines = [f"# Neue Kandidaten {TODAY} ({len(new)})\n"]
     for a in new:
-        lines.append(f"## [{a['_class']}] {a.get('city')} {a.get('zone') or ''} – {a['price']} € – "
+        lines.append(f"## [{a['_class']}] Rad:{a.get('_bike') or '?'} · {a.get('city')} {a.get('zone') or ''} – {a['price']} € – "
                      f"{a.get('bedrooms')} Zi. – {str(a.get('m2')).replace(' m²', '')} m² – {a.get('seller')} {a.get('agency') or ''}")
         lines.append(a["url"])
         pats = (a["_strong"] or a["_short"])[:3]
