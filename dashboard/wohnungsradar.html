@@ -21,6 +21,8 @@
   --crit: #b0271d;
   --crit-soft: #f8e0dd;
   --meter: #c9d7dc;
+  --scrim: rgba(8, 20, 27, 0.62);
+  --scrim-ink: #ffffff;
   --font-display: "Epilogue", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
   --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -77,6 +79,13 @@ h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); gap: 16px; align-items: start; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; min-width: 0; }
 .card.is-offline { opacity: .6; }
+.media { position: relative; margin: -16px -16px 0; aspect-ratio: 3 / 2; max-width: calc(100% + 32px); background: var(--meter); border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0; overflow: hidden; }
+.media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.media .ph { position: absolute; inset: 0; display: grid; place-items: center; font-size: 13px; color: var(--muted); }
+.media .nav { position: absolute; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border: 0; border-radius: 50%; background: var(--scrim); color: var(--scrim-ink); font-size: 18px; line-height: 1; cursor: pointer; display: grid; place-items: center; }
+.media .nav.prev { left: 10px; }
+.media .nav.next { right: 10px; }
+.media .count { position: absolute; right: 10px; bottom: 10px; font-family: var(--font-data); font-size: 11px; padding: 2px 7px; border-radius: 999px; background: var(--scrim); color: var(--scrim-ink); }
 .card-head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: flex-start; }
 .plate { font-family: var(--font-data); font-size: 12px; font-weight: 500; letter-spacing: .04em; border: 1.5px solid var(--ink); border-radius: 4px; padding: 1px 5px; line-height: 1.4; flex: none; margin-top: 3px; }
 .card h3 { font-size: 18px; font-weight: 600; line-height: 1.25; min-width: 0; flex: 1 1 200px; }
@@ -239,6 +248,10 @@ footer { font-size: 13px; color: var(--muted); }
   const state = { listings: [], status: new Map(), meta: null, tab: "top", isle: "all", bike: "all", onlyPrivate: false, sort: "rank" };
   const BIKE = { top: "Rad: Top-Revier", gut: "Rad: gut", stadt: "Rad: Stadtlage" };
   const saveMsg = new Map();
+  const thumbCache = new Map(), photoIdx = new Map();
+  const io = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); e.target._load && e.target._load(); }
+  }, { rootMargin: "300px" }) : null;
   let db = null, canWrite = null, loaded = false;
   const writeChains = new Map();
 
@@ -348,6 +361,42 @@ footer { font-size: 13px; color: var(--muted); }
     writeChains.set(key, chain);
   }
 
+  function fetchThumb(id) {
+    if (thumbCache.has(id)) return Promise.resolve(thumbCache.get(id));
+    const p = db.doc("thumbs/" + id).get().then((snap) => {
+      const img = snap.exists ? snap.data().img : null;
+      const ok = typeof img === "string" && img.startsWith("data:image/") ? img : null;
+      thumbCache.set(id, ok); return ok;
+    }).catch(() => { thumbCache.delete(id); return null; });
+    thumbCache.set(id, p); return p;
+  }
+
+  function media(l) {
+    const n = Number(l.photos) || 0;
+    if (!n || !db) return null;
+    const img = h("img", { alt: "Foto: " + (l.place || "Wohnung"), decoding: "async" });
+    const ph = h("span", { class: "ph" }, "Foto lädt …");
+    const count = n > 1 ? h("span", { class: "count" }) : null;
+    const box = h("div", { class: "media" }, ph, img, count);
+    img.hidden = true;
+    const show = async () => {
+      const i = photoIdx.get(l.key) || 0;
+      if (count) count.textContent = `${i + 1} / ${n}`;
+      const src = await fetchThumb(`${l.key}-${i}`);
+      if ((photoIdx.get(l.key) || 0) !== i) return;
+      if (src) { img.src = src; img.hidden = false; ph.hidden = true; } else { img.hidden = true; ph.hidden = false; ph.textContent = "Kein Foto"; }
+      if (n > 1) fetchThumb(`${l.key}-${(i + 1) % n}`);
+    };
+    if (n > 1) {
+      const step = (d) => (e) => { e.stopPropagation(); photoIdx.set(l.key, ((photoIdx.get(l.key) || 0) + d + n) % n); show(); };
+      box.append(h("button", { type: "button", class: "nav prev", "aria-label": "Vorheriges Foto", onclick: step(-1) }, "‹"),
+                 h("button", { type: "button", class: "nav next", "aria-label": "Nächstes Foto", onclick: step(1) }, "›"));
+    }
+    const cached = thumbCache.get(`${l.key}-${photoIdx.get(l.key) || 0}`);
+    if (typeof cached === "string" || !io) show(); else { box._load = show; io.observe(box); }
+    return box;
+  }
+
   function card(l) {
     const tags = [];
     if (isNew(l)) tags.push(h("span", { class: "tag new" }, "neu"));
@@ -359,6 +408,7 @@ footer { font-size: 13px; color: var(--muted); }
     const hist = Array.isArray(l.priceHistory) && l.priceHistory.length ? l.priceHistory[l.priceHistory.length - 1] : null;
     const links = (Array.isArray(l.links) ? l.links : []).map((x) => { const u = safeUrl(x && x.url); return u ? h("a", { href: u, target: "_blank", rel: "noopener" }, (x.label || "Inserat") + " ↗") : null; });
     return h("article", { class: "card" + (l.online === false ? " is-offline" : "") },
+      media(l),
       h("div", { class: "card-head" }, h("span", { class: "plate", title: l.isle === "TF" ? "Teneriffa" : "Gran Canaria" }, l.isle || "?"), h("h3", {}, l.place || ""),
         BIKE[l.bike] ? h("span", { class: "bike " + l.bike }, BIKE[l.bike]) : null),
       tags.length ? h("div", { class: "tags" }, tags) : null,

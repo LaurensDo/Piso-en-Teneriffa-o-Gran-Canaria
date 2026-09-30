@@ -63,7 +63,10 @@ def main():
                 if not d:
                     print("WARN: keine Daten", url, file=sys.stderr)
                     break
-                p = d["adListPagination"]
+                p = d.get("adListPagination") or {}
+                if "adList" not in p:  # leere Suche oder abweichende Seite (z. B. Drosselung)
+                    print("WARN: keine Anzeigenliste", url, file=sys.stderr)
+                    break
                 for a in p["adList"]["ads"]:
                     price = (a.get("price") or {}).get("cashPrice", {}).get("value")
                     ads.setdefault(a["id"], {
@@ -73,9 +76,11 @@ def main():
                         "m2": tag(a, "metros cuadrados"), "seller": a.get("sellerType"),
                         "published": a.get("publishDate"), "updated": a.get("updateDate"),
                         "url": "https://www.milanuncios.com" + a["url"],
-                        "description": a.get("description", ""), "queries": []})
+                        "description": a.get("description", ""), "queries": [],
+                        "images": ["https://" + u.split("://")[-1] + "?rule=detail_640x480"
+                                   for u in (a.get("images") or [])[:6]]})
                     ads[a["id"]]["queries"].append(q)
-                tp = p["pagination"]["totalPages"]
+                tp = (p.get("pagination") or {}).get("totalPages") or 1
                 if page >= tp or page >= 12:
                     break
                 page += 1

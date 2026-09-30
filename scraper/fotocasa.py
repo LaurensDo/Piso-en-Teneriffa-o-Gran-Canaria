@@ -57,7 +57,8 @@ def main():
                     "temporary": x.get("isTemporaryRental"),
                     "published": datetime.datetime.utcfromtimestamp(
                         (x.get("dateOriginal") or {}).get("timestamp", 0) / 1000).isoformat() + "Z",
-                    "url": "https://www.fotocasa.es" + det, "description": x.get("description") or ""}
+                    "url": "https://www.fotocasa.es" + det, "description": x.get("description") or "",
+                    "images": [m["src"] for m in (x.get("multimedia") or []) if m.get("type") == "image" and m.get("src")][:6]}
             total = r.get("count", 0)
             if page * 30 >= total or page >= 60:
                 break
