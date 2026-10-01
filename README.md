@@ -27,6 +27,8 @@ Filter: nur Teneriffa/Gran Canaria, Preis 450–2.000 €, Hinweise auf Kurzzeit
 „por meses“, „corta temporada“ …), ohne Ausschlussgründe („mínimo 3 meses“, „larga temporada“,
 „estudiantes“ …). Klasse **A** = 1 Monat ausdrücklich möglich + ≥ 2 Zimmer, **B** = anfragen.
 Die Rohliste wird danach manuell geprüft und in `data/dashboard.json` übernommen.
+`python3 scraper/refresh_dashboard.py` hält bestehende Einträge aktuell (lastSeen, Preis im Inseratskopf `listPrice`,
+online-Status; fehlende Treffer werden über die Detailseite geprüft).
 
 Fotos: `python3 scraper/thumbs.py OUT_DIR [key ...]` lädt bis zu 3 Bilder je neuem Eintrag (480×320 JPEG,
 braucht Pillow: `pip install pillow`) und bereitet sie für die Dashboard-Collection `thumbs` vor.

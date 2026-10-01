@@ -1,8 +1,8 @@
 {
  "meta": {
-  "lastUpdate": "2026-09-30",
+  "lastUpdate": "2026-10-01",
   "firstRun": "2026-09-30",
-  "screened": 3145,
+  "screened": 3151,
   "sources": [
    "Milanuncios",
    "Fotocasa"
@@ -36,10 +36,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1300
   },
   {
    "key": "ma-599524316",
@@ -67,10 +68,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.200 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 0
+   "photos": 0,
+   "listPrice": 1200
   },
   {
    "key": "fc-184892391",
@@ -98,10 +100,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.250 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1200
   },
   {
    "key": "ma-616789046",
@@ -133,10 +136,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.500 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1500
   },
   {
    "key": "fc-190896168",
@@ -170,10 +174,11 @@
    "maxFee": 1020,
    "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 900
   },
   {
    "key": "ma-597057750",
@@ -203,10 +208,11 @@
    "maxFee": 1020,
    "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 900
   },
   {
    "key": "fc-190706321",
@@ -234,10 +240,11 @@
    "feeUnknown": false,
    "costNote": "Miete 795 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 0
+   "photos": 0,
+   "listPrice": 795
   },
   {
    "key": "ma-588831375",
@@ -265,10 +272,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.290 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1290
   },
   {
    "key": "fc-190149538",
@@ -300,10 +308,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.400 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1400
   },
   {
    "key": "fc-188831802",
@@ -331,10 +340,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.500 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1500
   },
   {
    "key": "fc-190961945",
@@ -366,10 +376,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1500
   },
   {
    "key": "fc-189348450",
@@ -397,10 +408,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.650 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1650
   },
   {
    "key": "fc-184074438",
@@ -428,10 +440,11 @@
    "feeUnknown": false,
    "costNote": "Miete 2.000 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1800
   },
   {
    "key": "fc-190149392",
@@ -459,10 +472,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.000 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1000
   },
   {
    "key": "fc-189764726",
@@ -490,10 +504,11 @@
    "feeUnknown": false,
    "costNote": "Miete 1.350 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1350
   },
   {
    "key": "fc-190683345",
@@ -521,10 +536,11 @@
    "feeUnknown": false,
    "costNote": "Miete 800 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 800
   },
   {
    "key": "ma-609226735",
@@ -558,10 +574,11 @@
    "maxFee": 900,
    "costNote": "Miete 1.100 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1100
   },
   {
    "key": "fc-190646608",
@@ -589,10 +606,11 @@
    "feeUnknown": false,
    "costNote": "Miete 950 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 950
   },
   {
    "key": "ma-601957797",
@@ -630,10 +648,11 @@
    "maxFee": 650,
    "costNote": "Miete 1.350 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1350
   },
   {
    "key": "fc-183165490",
@@ -663,10 +682,11 @@
    "maxFee": 720,
    "costNote": "Miete 1.200 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1200
   },
   {
    "key": "ma-614618678",
@@ -686,6 +706,10 @@
     {
      "label": "Milanuncios",
      "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-614618678.htm"
+    },
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/terraza-ascensor-amueblado-piscina/190756060/d"
     }
    ],
    "priceNote": "",
@@ -696,10 +720,11 @@
    "maxFee": 770,
    "costNote": "Miete 1.150 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1150
   },
   {
    "key": "ma-611727783",
@@ -733,10 +758,11 @@
    "maxFee": 620,
    "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1300
   },
   {
    "key": "fc-190804977",
@@ -766,10 +792,11 @@
    "maxFee": 720,
    "costNote": "Miete 1.200 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1200
   },
   {
    "key": "fc-190860881",
@@ -799,10 +826,11 @@
    "maxFee": 870,
    "costNote": "Miete 1.050 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1050
   },
   {
    "key": "ma-617320108",
@@ -832,10 +860,11 @@
    "maxFee": 120,
    "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1500
   },
   {
    "key": "ma-523917709",
@@ -865,10 +894,11 @@
    "maxFee": 120,
    "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1800
   },
   {
    "key": "ma-545752732",
@@ -902,10 +932,11 @@
    "maxFee": 50,
    "costNote": "Miete 1.950 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1950
   },
   {
    "key": "ma-511056649",
@@ -935,10 +966,11 @@
    "maxFee": 0,
    "costNote": "Miete 2.000 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 2000
   },
   {
    "key": "ma-611704711",
@@ -958,6 +990,10 @@
     {
      "label": "Milanuncios",
      "url": "https://www.milanuncios.com/alquiler-de-casas-en-el-medano-tenerife/granadilla-de-abona-611704711.htm"
+    },
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/calefaccion-jardin-piscina-no-amueblado/190559970/d"
     }
    ],
    "priceNote": "",
@@ -968,10 +1004,11 @@
    "maxFee": 120,
    "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
    "priceHistory": [],
-   "photos": 3
+   "photos": 3,
+   "listPrice": 1800
   },
   {
    "key": "fc-187728705",
@@ -1003,9 +1040,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.200 € · NK inklusive · Gebühr 1.284 €",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1200
   },
   {
    "key": "ma-567291248",
@@ -1025,6 +1063,10 @@
     {
      "label": "Milanuncios",
      "url": "https://www.milanuncios.com/alquiler-de-casas-en-san-bartolome-de-tirajana-las_palmas/san-bartolome-de-tirajana-567291248.htm"
+    },
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-terraza-amueblado/188142902/d"
     }
    ],
    "priceNote": "",
@@ -1033,9 +1075,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.400 € · NK inklusive · Gebühr 1.498 €",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1400
   },
   {
    "key": "ma-512279795",
@@ -1059,6 +1102,10 @@
     {
      "label": "Golf del Sur 1.500 €",
      "url": "https://www.milanuncios.com/alquiler-de-pisos-en-san-miguel-de-abona-tenerife/san-miguel-de-abona-508937302.htm"
+    },
+    {
+     "label": "Fotocasa (Torviscas 1.400 €)",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-amueblado-internet-piscina/189939176/d"
     }
    ],
    "priceNote": "",
@@ -1067,9 +1114,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.000 € · NK inklusive · Gebühr 1.309 €",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1000
   },
   {
    "key": "ma-548079410",
@@ -1099,9 +1147,10 @@
    "maxFee": 20,
    "costNote": "Miete 1.900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1900
   },
   {
    "key": "fc-190947360",
@@ -1129,9 +1178,10 @@
    "feeUnknown": false,
    "costNote": "Miete 850 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 850
   },
   {
    "key": "fc-190441366",
@@ -1159,9 +1209,10 @@
    "feeUnknown": false,
    "costNote": "Miete 2.200 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1500
   },
   {
    "key": "ma-616656905",
@@ -1189,9 +1240,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.950 € · NK inklusive · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1950
   },
   {
    "key": "fc-190746734",
@@ -1223,9 +1275,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1300
   },
   {
    "key": "fc-189065546",
@@ -1253,9 +1306,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.980 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1980
   },
   {
    "key": "fc-190928452",
@@ -1289,9 +1343,10 @@
    "maxFee": 1120,
    "costNote": "Miete 880 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 880
   },
   {
    "key": "fc-189890833",
@@ -1319,9 +1374,10 @@
    "feeUnknown": false,
    "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1800
   },
   {
    "key": "ma-581485755",
@@ -1351,9 +1407,10 @@
    "maxFee": 1020,
    "costNote": "Miete 900 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 900
   },
   {
    "key": "fc-184882441",
@@ -1383,9 +1440,10 @@
    "maxFee": 950,
    "costNote": "Miete 1.050 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1050
   },
   {
    "key": "ma-616584519",
@@ -1415,9 +1473,10 @@
    "maxFee": 320,
    "costNote": "Miete 1.600 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1600
   },
   {
    "key": "ma-617075724",
@@ -1447,9 +1506,10 @@
    "maxFee": 0,
    "costNote": "Miete 2.000 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 2000
   },
   {
    "key": "ma-615300358",
@@ -1479,9 +1539,10 @@
    "maxFee": 800,
    "costNote": "Miete 1.200 € · NK inklusive · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1200
   },
   {
    "key": "fc-190641045",
@@ -1511,9 +1572,408 @@
    "maxFee": 620,
    "costNote": "Miete 1.300 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "online": true,
-   "priceHistory": []
+   "priceHistory": [],
+   "listPrice": 1300
+  },
+  {
+   "key": "ma-612844852",
+   "tier": "ask",
+   "rank": 5.5,
+   "isle": "TF",
+   "place": "Costa Adeje · El Madroñal",
+   "flat": "2 Schlafzimmer: Doppel + Einzel · 60 m² · Privatterrasse",
+   "terms": "frei ab 1. Januar 2027, Mindestdauer nicht genannt",
+   "provider": "Agentur Teivida Homes",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "Ausdrücklich ab 1. Januar frei, Nebenkosten inklusive. Teivida nennt „gastos de gestión“ ohne Betrag. Laut Anbieter sind einige Fotos KI-bearbeitet.",
+   "links": [
+    {
+     "label": "Milanuncios",
+     "url": "https://www.milanuncios.com/alquiler-de-pisos-en-adeje-tenerife/adeje-612844852.htm"
+    },
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/aire-acondicionado-parking-terraza-zona-comunitaria-amueblado-television/190642998/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1200,
+   "total": 1200,
+   "feeUnknown": true,
+   "worstTotal": 2484,
+   "maxFee": 800,
+   "costNote": "Miete 1.200 € · NK inklusive · Maklergebühr unbekannt",
+   "listPrice": 1200,
+   "photos": 3
+  },
+  {
+   "key": "fc-190590475",
+   "tier": "ask",
+   "rank": 11.5,
+   "isle": "TF",
+   "place": "Callao Salvaje (Adeje)",
+   "flat": "Maisonette · 2 Doppelzimmer · Terrasse · Parkplatz",
+   "terms": "Saisonmiete ab 25. Oktober, keine Langzeitmiete",
+   "provider": "Agentur KW Sunset",
+   "private": false,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Sonniger Südwesten. Anstiege nach Ifonche, Vilaflor und zum Teide ab Adeje.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/parking-terraza-ascensor-amueblado-piscina/190590475/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1395,
+   "total": 1475,
+   "feeUnknown": true,
+   "worstTotal": 2968,
+   "maxFee": 525,
+   "costNote": "Miete 1.395 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "listPrice": 1395,
+   "photos": 3
+  },
+  {
+   "key": "fc-190771722",
+   "tier": "ask",
+   "rank": 12.5,
+   "isle": "TF",
+   "place": "Golf del Sur",
+   "flat": "2 Schlafzimmer + Schlafsofa · 60 m² · Terrasse",
+   "terms": "Saisonmiete, Mindestdauer nicht genannt",
+   "provider": "Agentur Tenerife4Rent",
+   "private": false,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Flacher Süden nahe Flughafen. Anstiege über San Miguel nach Vilaflor.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/terraza-amueblado-piscina/190771722/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": true,
+   "worstTotal": 3185,
+   "maxFee": 420,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "listPrice": 1500,
+   "photos": 3
+  },
+  {
+   "key": "fc-190665796",
+   "tier": "ask",
+   "rank": 12.6,
+   "isle": "GC",
+   "place": "San Agustín · Corona Roja",
+   "flat": "2 Schlafzimmer · 80 m² · große Terrasse mit Meerblick · Parkplatz",
+   "terms": "frei bis Ende Mai 2027, nur Erwachsene",
+   "provider": "Agentur iCanary Properties",
+   "private": false,
+   "pool": true,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-zona-comunitaria-amueblado-television-internet-piscina/190665796/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": true,
+   "worstTotal": 3185,
+   "maxFee": 420,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "listPrice": 1500,
+   "photos": 3
+  },
+  {
+   "key": "fc-182310119",
+   "tier": "ask",
+   "rank": 15.5,
+   "isle": "TF",
+   "place": "El Tablado (Güímar) · Haus am Meer",
+   "flat": "4 Schlafzimmer · 180 m² · Meerwasser-Pool · direkter Meerzugang",
+   "terms": "Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "gut",
+   "bikeNote": "Südostküste, windig. Anstiege über Arafo oder Güímar Richtung Teide in der Nähe.",
+   "note": "Inserat ist seit 2024 online. Verfügbarkeit im Januar unbedingt prüfen.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/guimar/aire-acondicionado-parking-jardin-patio-piscina-amueblado/182310119/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1800,
+   "total": 1880,
+   "feeUnknown": false,
+   "costNote": "Miete 1.800 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "listPrice": 1800,
+   "photos": 3
+  },
+  {
+   "key": "fc-188656014",
+   "tier": "ask",
+   "rank": 16.5,
+   "isle": "TF",
+   "place": "Porís de Abona · Dorfhaus am Strand",
+   "flat": "2 Schlafzimmer mit Meerblick · 139 m² · Dachterrasse",
+   "terms": "„por temporadas“",
+   "provider": "Agentur Gálvez",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/terraza-amueblado/188656014/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": true,
+   "worstTotal": 3185,
+   "maxFee": 420,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · Maklergebühr unbekannt",
+   "listPrice": 1500,
+   "photos": 3
+  },
+  {
+   "key": "fc-190485703",
+   "tier": "ask",
+   "rank": 17.5,
+   "isle": "TF",
+   "place": "San Isidro (Granadilla)",
+   "flat": "2 Zimmer · 75 m² · Patio",
+   "terms": "Saisonmiete, Mindestdauer nicht genannt",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Zweckmäßige Lage nahe Flughafen. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Günstigste Option, aber reine Wohnlage nahe Gewerbegebiet. 2 Monatsmieten Kaution.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/patio-amueblado/190485703/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 600,
+   "total": 680,
+   "feeUnknown": false,
+   "costNote": "Miete 600 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "listPrice": 600,
+   "photos": 3
+  },
+  {
+   "key": "fc-189496068",
+   "tier": "ask",
+   "rank": 19.5,
+   "isle": "TF",
+   "place": "Santa Úrsula · La Quinta",
+   "flat": "2 Schlafzimmer · 2 Bäder · 83 m² · Terrasse",
+   "terms": "Kurzzeit, max. 4–6 Monate",
+   "provider": "Privat",
+   "private": true,
+   "pool": true,
+   "bike": "stadt",
+   "bikeNote": "Nordosten, oft bewölkt. Anstieg über La Esperanza zum Teide erreichbar.",
+   "note": "",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-ursula/piscina-amueblado/189496068/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1250,
+   "total": 1330,
+   "feeUnknown": false,
+   "costNote": "Miete 1.250 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "listPrice": 1250,
+   "photos": 3
+  },
+  {
+   "key": "fc-183197242",
+   "tier": "ask",
+   "rank": 20.5,
+   "isle": "TF",
+   "place": "Santa Cruz · El Toscal",
+   "flat": "3 Zimmer · 70 m²",
+   "terms": "„für befristete Zeiträume“",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "stadt",
+   "bikeNote": "Stadtlage. Erst hoch nach La Laguna, dann Anaga oder über La Esperanza zum Teide.",
+   "note": "Inserat ist seit 2024 online. Verfügbarkeit prüfen.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/patio-amueblado/183197242/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1500,
+   "total": 1580,
+   "feeUnknown": false,
+   "costNote": "Miete 1.500 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "listPrice": 1500,
+   "photos": 3
+  },
+  {
+   "key": "fc-190663288",
+   "tier": "ask",
+   "rank": 29.5,
+   "isle": "TF",
+   "place": "El Médano · Zentrum",
+   "flat": "2 Schlafzimmer: Doppelbett + 2 Einzelbetten · 74 m² · Balkon",
+   "terms": "monatsweise ab 1.800 €",
+   "provider": "Agentur alquilaencanarias.com",
+   "private": false,
+   "pool": false,
+   "bike": "gut",
+   "bikeNote": "Sehr windig. Anstiege über Granadilla nach Vilaflor.",
+   "note": "Strom, Wasser und WLAN inklusive. Passt nur ohne oder mit sehr kleiner Gebühr.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/ascensor-amueblado-television-internet/190663288/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1800,
+   "total": 1800,
+   "feeUnknown": true,
+   "worstTotal": 3726,
+   "maxFee": 200,
+   "costNote": "Miete 1.800 € · NK inklusive · Maklergebühr unbekannt",
+   "listPrice": 1800,
+   "photos": 3
+  },
+  {
+   "key": "fc-190022538",
+   "tier": "out",
+   "rank": 57,
+   "isle": "GC",
+   "place": "Playa del Inglés · Sahara Beach",
+   "flat": "2 Schlafzimmer · 44 m²",
+   "terms": "",
+   "provider": "Agentur Almar",
+   "private": false,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Über dem Limit: 1 Monatsmiete Gebühr + IGIC, gesamt ca. 3.930 €.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-terraza-amueblado-piscina/190022538/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1900,
+   "total": 3933,
+   "feeUnknown": false,
+   "costNote": "Miete 1.900 € · NK inklusive · Gebühr 2.033 €",
+   "listPrice": 1900
+  },
+  {
+   "key": "fc-190355630",
+   "tier": "out",
+   "rank": 58,
+   "isle": "GC",
+   "place": "San Agustín · Bungalow",
+   "flat": "2 Schlafzimmer · 60 m²",
+   "terms": "",
+   "provider": "Privat",
+   "private": true,
+   "pool": false,
+   "bike": "top",
+   "bikeNote": "Klassisches Winter-Radrevier: Fataga-Anstieg und Touren nach Soria oder Cerana ab Haustür.",
+   "note": "Nur September–November und April–Juli frei.",
+   "links": [
+    {
+     "label": "Fotocasa",
+     "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-patio-piscina-amueblado/190355630/d"
+    }
+   ],
+   "priceNote": "",
+   "firstSeen": "2026-10-01",
+   "lastSeen": "2026-10-01",
+   "online": true,
+   "priceHistory": [],
+   "price": 1200,
+   "total": 1280,
+   "feeUnknown": false,
+   "costNote": "Miete 1.200 € · NK ca. 80 € (geschätzt) · keine Maklergebühr",
+   "listPrice": 1200
   }
  ]
 }
