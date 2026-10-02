@@ -20,7 +20,11 @@ for name, prefix in (("fotocasa", "fc-"), ("milanuncios", "ma-")):
 
 def detail_price(url):
     """Preis von der Detailseite, None wenn das Inserat dort nicht (mehr) auftaucht."""
-    h = subprocess.run(["curl", "-s", "-L", "--max-time", "25", "-A", UA, url], capture_output=True, text=True, errors="ignore").stdout
+    out = subprocess.run(["curl", "-s", "-L", "--max-time", "25", "-A", UA, "-w", "\n%{url_effective}", url],
+                         capture_output=True, text=True, errors="ignore").stdout
+    h, _, final_url = out.rpartition("\n")
+    if "propertyNotFound" in final_url:
+        return "gone"  # Fotocasa leitet entfernte Inserate auf die Suche um
     lid = re.search(r"(\d{6,})(?:/d|\.htm)$", url).group(1)
     if lid not in h:
         return None
@@ -38,6 +42,11 @@ changed = set()
 for l in d["listings"]:
     a = latest.get(l["key"])
     price = a["price"] if a else detail_price(l["links"][0]["url"])
+    if price == "gone":
+        if l.get("online", True):
+            l["online"] = False; changed.add(l["key"])
+            print(f"ENTFERNT {l['key']} {l['place']} (Inserat gelöscht, vermutlich vergeben)", file=sys.stderr)
+        continue
     if price is not None:
         if l.get("lastSeen") != TODAY:
             l["lastSeen"] = TODAY; changed.add(l["key"])

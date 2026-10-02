@@ -3,7 +3,7 @@
   "city": "San Cristóbal de la Laguna",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1050,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-cristobal-de-la-laguna/aire-acondicionado-patio-amueblado/178663774/d"
  },
@@ -11,7 +11,7 @@
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/parking-terraza-ascensor-amueblado-internet-piscina/181405128/d"
  },
@@ -27,7 +27,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/jardin-terraza-amueblado-internet-piscina/182301997/d"
  },
@@ -35,7 +35,7 @@
   "city": "Güímar",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/guimar/aire-acondicionado-parking-jardin-patio-piscina-amueblado/182310119/d"
  },
@@ -43,7 +43,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1000,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/parking-amueblado-internet-piscina/183136493/d"
  },
@@ -51,7 +51,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/ascensor-amueblado/183165490/d"
  },
@@ -59,7 +59,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/patio-amueblado/183197242/d"
  },
@@ -83,7 +83,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/parking-terraza-ascensor-amueblado/184002976/d"
  },
@@ -91,15 +91,31 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-jardin-piscina-amueblado/184074438/d"
+ },
+ "fotocasa:184418316": {
+  "city": "Las Palmas de Gran Canaria",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1600,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/aire-acondicionado-ascensor-amueblado/184418316/d"
+ },
+ "fotocasa:184486079": {
+  "city": "San Bartolomé de Tirajana",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1500,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/terraza-amueblado/184486079/d"
  },
  "fotocasa:184882441": {
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1050,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/parking-ascensor-amueblado-internet-piscina/184882441/d"
  },
@@ -115,7 +131,7 @@
   "city": "Candelaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 950,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/candelaria/terraza-ascensor-piscina-amueblado-se-aceptan-mascotas/185271035/d"
  },
@@ -131,7 +147,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/aire-acondicionado-jardin-terraza-amueblado-internet/186123606/d"
  },
@@ -139,7 +155,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1850,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-patio-piscina-amueblado/186353234/d"
  },
@@ -147,7 +163,7 @@
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/terraza-ascensor-amueblado/186701338/d"
  },
@@ -163,7 +179,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/terraza-ascensor-amueblado/186856219/d"
  },
@@ -171,7 +187,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1150,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santiago-del-teide/parking-terraza-ascensor-piscina/186880273/d"
  },
@@ -179,15 +195,23 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/terraza-ascensor-amueblado-piscina/186882790/d"
+ },
+ "fotocasa:186947558": {
+  "city": "Adeje",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1800,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/jardin-patio-piscina-amueblado/186947558/d"
  },
  "fotocasa:186958762": {
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/no-amueblado/186958762/d"
  },
@@ -195,7 +219,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/calefaccion-jardin-terraza-ascensor-amueblado-piscina/187178319/d"
  },
@@ -203,7 +227,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santiago-del-teide/terraza-ascensor-amueblado-internet-piscina/187267468/d"
  },
@@ -211,7 +235,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/ascensor-piscina-amueblado-television-piscina/187704306/d"
  },
@@ -219,7 +243,7 @@
   "city": "Arico",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/parking-terraza-ascensor-patio-amueblado-internet-piscina/187728705/d"
  },
@@ -227,7 +251,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1250,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/jardin-ascensor-patio-piscina-amueblado/187728793/d"
  },
@@ -235,7 +259,7 @@
   "city": "Agüimes",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1000,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/aguimes/parking-amueblado/187753914/d"
  },
@@ -251,7 +275,7 @@
   "city": "Santa María de Guía de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-maria-de-guia-de-gran-canaria/amueblado/187906743/d"
  },
@@ -259,7 +283,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1250,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/ascensor-amueblado-internet/188082344/d"
  },
@@ -267,7 +291,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-terraza-amueblado/188142902/d"
  },
@@ -275,7 +299,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-ascensor-piscina/188182544/d"
  },
@@ -283,15 +307,23 @@
   "city": "Arico",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/terraza-amueblado/188656014/d"
+ },
+ "fotocasa:188679094": {
+  "city": "Puerto de la Cruz",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 900,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/ascensor-amueblado/188679094/d"
  },
  "fotocasa:188831802": {
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-ascensor-patio-piscina-amueblado/188831802/d"
  },
@@ -299,7 +331,7 @@
   "city": "Telde",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/terraza-amueblado/188839400/d"
  },
@@ -323,7 +355,7 @@
   "city": "Santa Lucía de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-lucia-de-tirajana/aire-acondicionado-parking-ascensor-amueblado-internet/189196506/d"
  },
@@ -331,7 +363,7 @@
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/terraza-piscina/189235686/d"
  },
@@ -347,7 +379,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/jardin-ascensor-patio-piscina-amueblado/189348450/d"
  },
@@ -355,7 +387,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/zona-comunitaria-ascensor-amueblado-television-internet/189390270/d"
  },
@@ -363,7 +395,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/terraza-zona-comunitaria-ascensor-piscina-amueblado-piscina/189412736/d"
  },
@@ -395,15 +427,23 @@
   "city": "Guía de Isora",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/guia-de-isora/ascensor-amueblado/189596314/d"
+ },
+ "fotocasa:189613568": {
+  "city": "Adeje",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1500,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-amueblado-piscina/189613568/d"
  },
  "fotocasa:189630165": {
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/terraza-ascensor-amueblado/189630165/d"
  },
@@ -411,7 +451,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/aire-acondicionado-parking-jardin-patio-piscina-amueblado/189634737/d"
  },
@@ -427,7 +467,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-terraza-zona-comunitaria-ascensor-amueblado-television-piscina/189660083/d"
  },
@@ -443,7 +483,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-zona-comunitaria-ascensor-amueblado-television-internet-piscina/189773871/d"
  },
@@ -451,7 +491,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/parking-terraza-amueblado/189777842/d"
  },
@@ -459,7 +499,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1410,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/parking-trastero-ascensor-amueblado-television-internet/189820164/d"
  },
@@ -467,7 +507,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-internet/189867215/d"
  },
@@ -475,7 +515,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/aire-acondicionado-parking-jardin-patio-amueblado/189890833/d"
  },
@@ -483,7 +523,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-amueblado-internet-piscina/189939176/d"
  },
@@ -491,7 +531,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1990,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-amueblado-internet-piscina/190004197/d"
  },
@@ -499,7 +539,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-jardin-terraza-amueblado-piscina/190022538/d"
  },
@@ -507,7 +547,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/amueblado-television/190033150/d"
  },
@@ -515,7 +555,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/jardin-terraza/190049263/d"
  },
@@ -523,7 +563,7 @@
   "city": "Agüimes",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1000,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/aguimes/patio-amueblado/190090512/d"
  },
@@ -531,7 +571,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/terraza-amueblado-piscina/190094114/d"
  },
@@ -539,7 +579,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/golf-del-sur-amarilla-golf/190135767/d"
  },
@@ -563,7 +603,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/no-amueblado/190157198/d"
  },
@@ -579,7 +619,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/amueblado/190225975/d"
  },
@@ -587,7 +627,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1750,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/aire-acondicionado-parking-terraza-ascensor-amueblado-internet/190254274/d"
  },
@@ -595,7 +635,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1960,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-piscina/190301267/d"
  },
@@ -603,7 +643,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-patio-piscina-amueblado/190355630/d"
  },
@@ -611,7 +651,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/parking-terraza-amueblado/190358033/d"
  },
@@ -619,7 +659,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1450,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/ascensor-amueblado-piscina/190358298/d"
  },
@@ -627,7 +667,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1700,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/parking-terraza-ascensor-amueblado/190358747/d"
  },
@@ -651,7 +691,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-piscina/190418547/d"
  },
@@ -659,7 +699,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-piscina/190429005/d"
  },
@@ -667,7 +707,7 @@
   "city": "Agüimes",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/aguimes/terraza-amueblado/190432876/d"
  },
@@ -675,7 +715,7 @@
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/aire-acondicionado-parking-jardin-terraza-trastero-zona-comunitaria-ascensor-piscina-amueblado-television-internet-piscina/190441366/d"
  },
@@ -683,7 +723,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-parking-jardin-terraza-ascensor-amueblado-piscina/190452051/d"
  },
@@ -691,7 +731,7 @@
   "city": "Los Realejos",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 550,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/los-realejos/los-realejos-pueblo/190456583/d"
  },
@@ -699,7 +739,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 850,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/parking-ascensor-amueblado/190467407/d"
  },
@@ -707,7 +747,7 @@
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 600,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/patio-amueblado/190485703/d"
  },
@@ -715,7 +755,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/parking-ascensor-piscina-amueblado-television-internet-piscina/190528287/d"
  },
@@ -723,7 +763,7 @@
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/calefaccion-jardin-piscina-no-amueblado/190559970/d"
  },
@@ -747,7 +787,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/patio-amueblado-television/190571173/d"
  },
@@ -771,7 +811,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1395,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/parking-terraza-ascensor-amueblado-piscina/190590475/d"
  },
@@ -787,7 +827,7 @@
   "city": "San Cristóbal de la Laguna",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1390,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-cristobal-de-la-laguna/zona-comunitaria-amueblado-television-piscina/190614433/d"
  },
@@ -795,7 +835,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santiago-del-teide/parking-terraza-ascensor-piscina/190632484/d"
  },
@@ -803,7 +843,7 @@
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/zona-comunitaria-ascensor-amueblado-television-internet/190637387/d"
  },
@@ -811,7 +851,7 @@
   "city": "Ingenio",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/ingenio/aire-acondicionado-patio-amueblado-television-internet/190637915/d"
  },
@@ -819,7 +859,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/playa-del-hombre-taliarte-salinetas/190641045/d"
  },
@@ -827,7 +867,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/aire-acondicionado-parking-terraza-zona-comunitaria-amueblado-television/190642998/d"
  },
@@ -835,15 +875,23 @@
   "city": "Candelaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 950,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/candelaria/ascensor-patio-amueblado/190646608/d"
+ },
+ "fotocasa:190658462": {
+  "city": "Las Palmas de Gran Canaria",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1400,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/ascensor-amueblado/190658462/d"
  },
  "fotocasa:190663288": {
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/granadilla-de-abona/ascensor-amueblado-television-internet/190663288/d"
  },
@@ -851,7 +899,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-zona-comunitaria-amueblado-television-internet-piscina/190665796/d"
  },
@@ -859,7 +907,7 @@
   "city": "Arico",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 850,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arico/amueblado/190670629/d"
  },
@@ -867,7 +915,7 @@
   "city": "Ingenio",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/ingenio/terraza-amueblado/190683345/d"
  },
@@ -875,7 +923,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-piscina/190686759/d"
  },
@@ -883,7 +931,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 795,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/las-chafiras/190706321/d"
  },
@@ -899,7 +947,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-terraza-amueblado-piscina/190751346/d"
  },
@@ -907,7 +955,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1150,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/terraza-ascensor-amueblado-piscina/190756060/d"
  },
@@ -915,7 +963,7 @@
   "city": "La Aldea de San Nicolás ",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 750,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/la-aldea-de-san-nicolas/parking-terraza-ascensor-amueblado/190760853/d"
  },
@@ -923,7 +971,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-miguel-de-abona/terraza-amueblado-piscina/190771722/d"
  },
@@ -931,7 +979,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-parking-jardin-terraza-amueblado-piscina/190793153/d"
  },
@@ -947,7 +995,7 @@
   "city": "Agaete",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1450,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/agaete/parking-terraza-trastero-zona-comunitaria-ascensor-amueblado-piscina/190805391/d"
  },
@@ -955,7 +1003,7 @@
   "city": "Santa Lucía de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-lucia-de-tirajana/aire-acondicionado-terraza-patio-amueblado/190838944/d"
  },
@@ -963,7 +1011,7 @@
   "city": "Mogán",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/mogan/trastero-piscina-amueblado/190845699/d"
  },
@@ -971,7 +1019,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1050,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/amueblado/190860881/d"
  },
@@ -987,7 +1035,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/terraza-zona-comunitaria-ascensor-amueblado-television-internet-piscina/190872011/d"
  },
@@ -995,7 +1043,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/puerto-de-la-cruz/terraza-amueblado/190873098/d"
  },
@@ -1003,7 +1051,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/parking-terraza-trastero-ascensor-amueblado-television/190882417/d"
  },
@@ -1011,7 +1059,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santiago-del-teide/parking-terraza-ascensor-piscina/190887660/d"
  },
@@ -1027,7 +1075,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-piscina/190896080/d"
  },
@@ -1035,7 +1083,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/ascensor-amueblado-piscina/190896168/d"
  },
@@ -1043,7 +1091,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/parking-piscina-amueblado/190896359/d"
  },
@@ -1051,7 +1099,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 700,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/amueblado-television/190896861/d"
  },
@@ -1059,7 +1107,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/ascensor-amueblado/190902570/d"
  },
@@ -1067,7 +1115,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 900,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/telde/ascensor-amueblado/190917399/d"
  },
@@ -1075,7 +1123,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 790,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/jardin-terraza-ascensor-amueblado/190918051/d"
  },
@@ -1091,7 +1139,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-terraza-amueblado-piscina/190928274/d"
  },
@@ -1099,15 +1147,23 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 880,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/arona/cabo-blanco/190928452/d"
+ },
+ "fotocasa:190940414": {
+  "city": "San Bartolomé de Tirajana",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1600,
+  "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/playa-del-ingles/190940414/d"
  },
  "fotocasa:190947360": {
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 850,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/adeje/aire-acondicionado-calefaccion-parking-terraza-ascensor-amueblado-television-internet/190947360/d"
  },
@@ -1115,7 +1171,7 @@
   "city": "San Cristóbal de la Laguna",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 950,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-cristobal-de-la-laguna/amueblado-television-internet/190948667/d"
  },
@@ -1123,7 +1179,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/jardin-terraza-trastero-ascensor-amueblado/190950599/d"
  },
@@ -1131,7 +1187,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/parking-jardin-terraza-piscina-amueblado/190961945/d"
  },
@@ -1139,7 +1195,7 @@
   "city": "San Bartolomé de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-09-30",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/san-bartolome-de-tirajana/aire-acondicionado-parking-jardin-terraza-zona-comunitaria-patio-amueblado-television-internet-piscina/190964579/d"
  },
@@ -1155,7 +1211,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/santa-cruz-de-tenerife-capital/aire-acondicionado-parking-terraza-ascensor-amueblado/190972232/d"
  },
@@ -1163,7 +1219,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.fotocasa.es/es/alquiler/vivienda/las-palmas-de-gran-canaria/arenales-lugo-avda-maritima/190987062/d"
  },
@@ -1171,7 +1227,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-485122630.htm"
  },
@@ -1179,7 +1235,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-506347495.htm"
  },
@@ -1187,7 +1243,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-508553880.htm"
  },
@@ -1195,7 +1251,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-san-miguel-de-abona-tenerife/san-miguel-de-abona-508937302.htm"
  },
@@ -1203,7 +1259,7 @@
   "city": "El Medano",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 2000,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-el-medano-tenerife/granadilla-de-abona-511056649.htm"
  },
@@ -1211,15 +1267,23 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1000,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arona-tenerife/arona-512279795.htm"
+ },
+ "milanuncios:512529646": {
+  "city": "Las Palmas de Gran Canaria",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1200,
+  "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-512529646.htm"
  },
  "milanuncios:523917709": {
   "city": "Las Palmas de Gran Canaria",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-523917709.htm"
  },
@@ -1227,7 +1291,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-525835636.htm"
  },
@@ -1235,7 +1299,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1050,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-arona-tenerife/arona-529602163.htm"
  },
@@ -1251,7 +1315,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.milanuncios.com/alquiler-de-casas-en-arona-tenerife/arona-540615647.htm"
  },
@@ -1259,7 +1323,7 @@
   "city": "Sobradillo (Galdar)",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1950,
   "url": "https://www.milanuncios.com/alquiler-de-casas-en-sobradillo-(galdar)-las_palmas/galdar-545752732.htm"
  },
@@ -1267,7 +1331,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1150,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-santiago-del-teide-tenerife/santiago-del-teide-547208945.htm"
  },
@@ -1275,7 +1339,7 @@
   "city": "Playa de los Cristianos",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1600,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-playa-de-los-cristianos-tenerife/arona-547225491.htm"
  },
@@ -1283,7 +1347,7 @@
   "city": "Granadilla de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1900,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-granadilla-de-abona-tenerife/granadilla-de-abona-548079410.htm"
  },
@@ -1291,7 +1355,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arona-tenerife/arona-551425146.htm"
  },
@@ -1299,7 +1363,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/centro-551805025.htm"
  },
@@ -1307,7 +1371,7 @@
   "city": "Arico",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-arico-tenerife/arico-560484597.htm"
  },
@@ -1315,7 +1379,7 @@
   "city": "Arona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1250,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-arona-tenerife/arona-566218937.htm"
  },
@@ -1323,7 +1387,7 @@
   "city": "San Bartolome de Tirajana",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-casas-en-san-bartolome-de-tirajana-las_palmas/san-bartolome-de-tirajana-567291248.htm"
  },
@@ -1331,7 +1395,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-adeje-tenerife/adeje-567929113.htm"
  },
@@ -1339,7 +1403,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 900,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-puerto-de-la-cruz-tenerife/puerto-de-la-cruz-578444011.htm"
  },
@@ -1347,7 +1411,7 @@
   "city": "Lomo los Frailes (Telde)",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 900,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-lomo-los-frailes-(telde)-las_palmas/telde-581485755.htm"
  },
@@ -1355,7 +1419,7 @@
   "city": "La Tosca (Guia de Isora)",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-la-tosca-(guia-de-isora)-tenerife/guia-de-isora-584953184.htm"
  },
@@ -1363,7 +1427,7 @@
   "city": "Puerto Rico",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-puerto-rico-las_palmas/mogan-588373933.htm"
  },
@@ -1371,7 +1435,7 @@
   "city": "Playa de San Juan",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1290,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-playa-de-san-juan-tenerife/playa-de-san-juan-tenerife-588831375.htm"
  },
@@ -1379,7 +1443,7 @@
   "city": "Playa de los Cristianos",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-playa-de-los-cristianos-tenerife/arona-590127454.htm"
  },
@@ -1387,7 +1451,7 @@
   "city": "Playa de los Cristianos",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-playa-de-los-cristianos-tenerife/arona-591314057.htm"
  },
@@ -1395,7 +1459,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-594943707.htm"
  },
@@ -1403,7 +1467,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-596868530.htm"
  },
@@ -1419,7 +1483,7 @@
   "city": "San Eugenio",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.milanuncios.com/alquiler-vacaciones-en-san-eugenio-tenerife/costa-adeje-c-suecia-599524316.htm"
  },
@@ -1427,7 +1491,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-adeje-tenerife/adeje-599885204.htm"
  },
@@ -1435,7 +1499,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1350,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-601957797.htm"
  },
@@ -1443,7 +1507,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-estudios-en-adeje-tenerife/adeje-603222561.htm"
  },
@@ -1451,7 +1515,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 2000,
   "url": "https://www.milanuncios.com/pisos-compartidos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-606167124.htm"
  },
@@ -1467,7 +1531,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1450,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-san-miguel-de-abona-tenerife/san-miguel-de-abona-607800732.htm"
  },
@@ -1475,7 +1539,7 @@
   "city": "Aguimes",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-aguimes-las_palmas/aguimes-609226735.htm"
  },
@@ -1483,7 +1547,7 @@
   "city": "El Medano",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1800,
   "url": "https://www.milanuncios.com/alquiler-de-casas-en-el-medano-tenerife/granadilla-de-abona-611704711.htm"
  },
@@ -1491,7 +1555,7 @@
   "city": "Puerto de la Cruz",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-puerto-de-la-cruz-tenerife/puerto-de-la-cruz-611727783.htm"
  },
@@ -1499,7 +1563,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-telde-las_palmas/telde-611896445.htm"
  },
@@ -1507,7 +1571,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1100,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-telde-las_palmas/telde-612025835.htm"
  },
@@ -1515,7 +1579,7 @@
   "city": "Santiago del Teide",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-santiago-del-teide-tenerife/santiago-del-teide-612681499.htm"
  },
@@ -1523,7 +1587,7 @@
   "city": "Telde",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-telde-las_palmas/telde-612817212.htm"
  },
@@ -1539,7 +1603,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1400,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-las-palmas-de-gran-canaria-las_palmas/las-palmas-de-gran-canaria-613012631.htm"
  },
@@ -1555,7 +1619,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1300,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-maspalomas-las_palmas/san-agustin-614388556.htm"
  },
@@ -1563,7 +1627,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1150,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/santa-cruz-de-tenerife-capital-614618678.htm"
  },
@@ -1571,7 +1635,7 @@
   "city": "Agaete",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1450,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-agaete-las_palmas/agaete-614942517.htm"
  },
@@ -1587,7 +1651,7 @@
   "city": "San Eugenio",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1200,
   "url": "https://www.milanuncios.com/alquiler-de-estudios-en-san-eugenio-tenerife/siampark-calle-finlandia-615306582.htm"
  },
@@ -1595,7 +1659,7 @@
   "city": "Adeje",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1650,
   "url": "https://www.milanuncios.com/alquiler-de-aticos-en-adeje-tenerife/adeje-615792544.htm"
  },
@@ -1603,7 +1667,7 @@
   "city": "San Eugenio",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-san-eugenio-tenerife/playa-de-las-americas-c-venezuela-615961666.htm"
  },
@@ -1611,7 +1675,7 @@
   "city": "Santa Cruz de Tenerife",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 790,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-santa-cruz-de-tenerife-tenerife/barrio-de-la-salud-c-alcalde-mandill-616287420.htm"
  },
@@ -1622,6 +1686,14 @@
   "last_seen": "2026-09-30",
   "price": 1600,
   "url": "https://www.milanuncios.com/alquiler-de-apartamentos-en-mogan-las_palmas/mogan-616584519.htm"
+ },
+ "milanuncios:616590701": {
+  "city": "Maspalomas",
+  "class": "B",
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02",
+  "price": 1600,
+  "url": "https://www.milanuncios.com/alquiler-de-pisos-en-maspalomas-las_palmas/san-bartolome-de-tirajana-616590701.htm"
  },
  "milanuncios:616656905": {
   "city": "Fañabe (Costa Adeje)",
@@ -1635,7 +1707,7 @@
   "city": "Las Palmas de Gran Canaria",
   "class": "A",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-aticos-en-las-palmas-de-gran-canaria-las_palmas/las-canteras-c-sgto-llagas-616789046.htm"
  },
@@ -1643,7 +1715,7 @@
   "city": "San Miguel de Abona",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 2000,
   "url": "https://www.milanuncios.com/alquiler-de-casas-en-san-miguel-de-abona-tenerife/san-miguel-de-abona-617075724.htm"
  },
@@ -1651,7 +1723,7 @@
   "city": "Maspalomas",
   "class": "B",
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "price": 1500,
   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-maspalomas-las_palmas/maspalomas-c-aries-617080918.htm"
  },
