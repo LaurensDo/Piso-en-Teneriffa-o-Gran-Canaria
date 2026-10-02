@@ -166,7 +166,7 @@ footer { font-size: 13px; color: var(--muted); }
   <header class="top">
     <p class="eyebrow">Januar 2027 · 1 Monat · 2–4 Personen</p>
     <h1>Wohnungsradar Kanaren</h1>
-    <p class="lead">Lokale Mietangebote auf Teneriffa und Gran Canaria, jeden Morgen neu geprüft. Harte Kriterien: <b>im Januar frei</b>, <b>1 Monat erlaubt</b>, <b>mindestens 2 getrennte Betten</b>, <b>höchstens 2.000 € Gesamtkosten im Monat</b>, Maklergebühr und Nebenkosten eingerechnet.</p>
+    <p class="lead">Lokale Mietangebote auf Teneriffa und Gran Canaria, auf Anfrage neu geprüft. Harte Kriterien: <b>im Januar frei</b>, <b>1 Monat erlaubt</b>, <b>mindestens 2 getrennte Betten</b>, <b>höchstens 2.000 € Gesamtkosten im Monat</b>, Maklergebühr und Nebenkosten eingerechnet.</p>
     <dl class="stats" id="stats">
       <div class="stat"><dt>Stand</dt><dd id="st-date">–</dd></div>
       <div class="stat"><dt>Inserate geprüft</dt><dd id="st-screened">–</dd></div>
@@ -202,7 +202,7 @@ footer { font-size: 13px; color: var(--muted); }
   </nav>
 
   <main class="grid" id="list" aria-live="polite">
-    <div class="empty" id="empty"><strong>Wohnungen werden geladen …</strong>Die Liste kommt aus der täglichen Auswertung von Milanuncios und Fotocasa.</div>
+    <div class="empty" id="empty"><strong>Wohnungen werden geladen …</strong>Die Liste kommt aus der Auswertung von Milanuncios und Fotocasa.</div>
   </main>
 
   <section class="notes" aria-label="Hinweise">
@@ -237,7 +237,7 @@ footer { font-size: 13px; color: var(--muted); }
     </div>
   </section>
 
-  <footer>Quellen: Milanuncios und Fotocasa, beide Provinzen, Mieten 450–2.000 €. Update täglich gegen 7:50 Uhr (Berlin). Gesamtkosten sind Schätzungen: Nebenkosten ca. 80 €, wenn nicht inklusive; übliche Maklergebühr 1 Monatsmiete + 7 % IGIC. Preise laut Inserat, ohne Gewähr.</footer>
+  <footer>Quellen: Milanuncios und Fotocasa, beide Provinzen, Mieten 450–2.000 €. Aktualisierung nur auf Anfrage, Stand siehe oben. Gesamtkosten sind Schätzungen: Nebenkosten ca. 80 €, wenn nicht inklusive; übliche Maklergebühr 1 Monatsmiete + 7 % IGIC. Preise laut Inserat, ohne Gewähr.</footer>
 </div>
 
 <script>
@@ -448,7 +448,7 @@ footer { font-size: 13px; color: var(--muted); }
       const msg = state.tab === "mine"
         ? ["Noch nichts markiert", "Markiere Wohnungen als Favorit oder angefragt. Sie erscheinen dann hier."]
         : state.listings.length ? ["Keine Treffer mit diesen Filtern", "Lockere die Radlage, stell die Insel auf „Beide Inseln“ oder schalte „Nur privat“ aus."]
-        : ["Noch keine Wohnungen", "Die Liste füllt sich beim nächsten täglichen Update."];
+        : ["Noch keine Wohnungen", "Die Liste füllt sich beim nächsten Update."];
       list.replaceChildren(h("div", { class: "empty" }, h("strong", {}, msg[0]), msg[1]));
       return;
     }

@@ -1,6 +1,6 @@
 # Piso en Tenerife o Gran Canaria – Januar 2027
 
-Tägliches Screening des lokalen Mietmarkts (nicht Airbnb/Booking) nach einer Wohnung für
+Screening des lokalen Mietmarkts (nur auf ausdrückliche Anfrage, keine automatischen Läufe) (nicht Airbnb/Booking) nach einer Wohnung für
 **1 Monat im Januar 2027**, 2–4 Personen, mind. 2 getrennte Betten, max. 2.000 €.
 
 - **Dashboard „Wohnungsradar Kanaren“:** https://claude.ai/artifact/KvWpcNWSn7zDUM1Rfm8TYi (privat, nur für den Besitzer sichtbar)

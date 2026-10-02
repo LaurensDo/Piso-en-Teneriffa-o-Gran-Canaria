@@ -1,7 +1,7 @@
 # Wohnungssuche Teneriffa / Gran Canaria – Januar 2027
 
 **Die aktuelle Liste steht im Dashboard „Wohnungsradar Kanaren“:** https://claude.ai/artifact/KvWpcNWSn7zDUM1Rfm8TYi
-(Quelle der Einträge: `data/dashboard.json`, täglich gegen 7:53 Uhr Berliner Zeit aktualisiert)
+(Quelle der Einträge: `data/dashboard.json`, Aktualisierung nur auf ausdrückliche Anfrage)
 
 **Letztes Update:** 02.10.2026
 
