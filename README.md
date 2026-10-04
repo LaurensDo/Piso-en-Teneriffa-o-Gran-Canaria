@@ -1,23 +1,25 @@
 # Piso en Tenerife o Gran Canaria – Januar 2027
 
-Screening des lokalen Mietmarkts (nur auf ausdrückliche Anfrage, keine automatischen Läufe) (nicht Airbnb/Booking) nach einer Wohnung für
+Screening des lokalen Mietmarkts (nicht Airbnb/Booking) nach einer Wohnung für
 **1 Monat im Januar 2027**, 2–4 Personen, mind. 2 getrennte Betten, max. 2.000 €.
 
 - **Dashboard „Wohnungsradar Kanaren“:** https://claude.ai/artifact/KvWpcNWSn7zDUM1Rfm8TYi (privat, nur für den Besitzer sichtbar)
   – Quelle der Einträge ist `data/dashboard.json`; Seitenquelltext in `dashboard/wohnungsradar.html`
 - **[wohnungen.md](wohnungen.md)** – Kurzfassung: Suchprofil, Kostenregel, Radlage, Stand
-- `data/neu/JJJJ-MM-TT.md` – automatisch gefundene neue Inserate des jeweiligen Tages (Rohliste)
+- `data/neu/JJJJ-MM-TT.md` – beim jeweiligen Lauf gefundene neue Inserate (Rohliste)
 - `data/seen.json` – bereits bekannte Inserate (für den Neu-Abgleich und Preisänderungen)
 
 ## Quellen
 | Portal | Status |
 |--------|--------|
-| Milanuncios (Suchbegriffe: enero, temporada, por meses, invierno, corta temporada, mensual, meses) | automatisch |
-| Fotocasa (alle Mietinserate 450–2.000 €, beide Provinzen) | automatisch |
+| Milanuncios (Suchbegriffe: enero, temporada, por meses, invierno, corta temporada, mensual, meses) | per Skript |
+| Fotocasa (alle Mietinserate 450–2.000 €, beide Provinzen) | per Skript |
 | Idealista | blockiert automatische Abrufe → eigenen Suchalarm anlegen |
 | Facebook-Gruppen, Wallapop | nicht automatisierbar |
 
 ## Ablauf
+**Es läuft nichts automatisch.** Gescraped wird nur, wenn ausdrücklich ein Update angefordert wird. Die frühere tägliche Routine ist deaktiviert.
+
 ```
 python3 scraper/daily.py          # holt Daten (~7 Min.), filtert, schreibt data/neu/<datum>.md
 python3 scraper/daily.py --no-fetch   # nur neu filtern
