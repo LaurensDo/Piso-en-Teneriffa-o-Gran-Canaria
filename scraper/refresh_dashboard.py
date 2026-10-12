@@ -36,10 +36,16 @@ def detail_price(url):
     return int(m.group(1)) if m else -1
 
 
+blocked = {prefix for prefix in ("fc-", "ma-") if not any(k.startswith(prefix) for k in latest)}
+for prefix in blocked:  # Portal lieferte 0 Treffer (Sperre): seine Einträge nicht anfassen, nicht als offline werten
+    print(f"PORTAL {prefix} nicht erreichbar, Einträge bleiben unverändert", file=sys.stderr)
+
 path = ROOT / "data" / "dashboard.json"
 d = json.load(open(path))
 changed = set()
 for l in d["listings"]:
+    if l["key"][:3] in blocked:
+        continue
     a = latest.get(l["key"])
     price = a["price"] if a else detail_price(l["links"][0]["url"])
     if price == "gone":

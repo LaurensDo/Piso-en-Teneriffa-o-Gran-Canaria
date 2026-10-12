@@ -95,6 +95,9 @@ def main():
         res.append(a)
     res.sort(key=lambda a: (-a["score"], a["price"]))
     out = ROOT / "data" / "milanuncios_latest.json"
+    if not ads:  # Bot-Sperre/Captcha: vorhandene Daten nicht überschreiben, keine Umgehung versuchen
+        print("FEHLER: Milanuncios liefert keine Anzeigen (vermutlich Bot-Schutz). Daten unverändert.", file=sys.stderr)
+        sys.exit(2)
     out.write_text(json.dumps({"fetched": datetime.datetime.utcnow().isoformat() + "Z",
                                "count": len(res), "ads": res}, ensure_ascii=False, indent=1))
     print(f"{len(ads)} Anzeigen gesamt, {len(res)} im Preisrahmen -> {out}")

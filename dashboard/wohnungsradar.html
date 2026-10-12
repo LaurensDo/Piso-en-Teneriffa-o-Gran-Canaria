@@ -65,6 +65,7 @@ h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em
 .stat dd small { font-family: var(--font-body); font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 4px; }
 
 /* Controls */
+.notice { margin: 0; padding: 10px 12px; border-radius: var(--radius); background: var(--warn-soft); color: var(--ink); font-size: 14px; }
 .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
 .seg { display: inline-flex; flex-wrap: wrap; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 3px; }
 .seg button { font: inherit; font-size: 14px; border: 0; background: transparent; color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; white-space: nowrap; }
@@ -174,6 +175,7 @@ footer { font-size: 13px; color: var(--muted); }
       <div class="stat"><dt>Anfragen lohnt</dt><dd id="st-ask">–</dd></div>
       <div class="stat"><dt>Bis 1. Januar</dt><dd id="st-days">–</dd></div>
     </dl>
+    <p class="notice" id="notice" role="status" hidden></p>
   </header>
 
   <nav class="controls" aria-label="Filter">
@@ -440,6 +442,8 @@ footer { font-size: 13px; color: var(--muted); }
     $("st-screened").textContent = m && m.screened ? new Intl.NumberFormat("de-DE").format(m.screened) : "–";
     $("st-top").textContent = loaded ? counts.top : "–";
     $("st-ask").textContent = loaded ? counts.ask : "–";
+    $("notice").textContent = (m && m.note) || "";
+    $("notice").hidden = !(m && m.note);
 
     const list = $("list");
     if (!loaded) return;
