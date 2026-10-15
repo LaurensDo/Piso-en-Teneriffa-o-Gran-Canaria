@@ -3,7 +3,7 @@
 **Die aktuelle Liste steht im Dashboard „Wohnungsradar Kanaren“:** https://claude.ai/artifact/KvWpcNWSn7zDUM1Rfm8TYi
 (Quelle der Einträge: `data/dashboard.json`, Aktualisierung nur auf ausdrückliche Anfrage)
 
-**Letztes Update:** 02.10.2026
+**Letztes Update:** 15.10.2026 (nur Fotocasa, Milanuncios gesperrt, dort Stand 02.10.)
 
 ## Suchprofil
 - 1 Monat im Januar 2027, 2–4 Personen, mind. 2 getrennte Betten, Pool optional
@@ -14,10 +14,15 @@
   Süden und Westen Teneriffa (Golf del Sur bis Los Gigantes); gut = windiger/wolkiger mit starken Anstiegen;
   Stadtlage = Santa Cruz, La Laguna, Candelaria, Las Palmas.
 
-## Stand 02.10.2026
-- **Passen sicher (4):** Arona-Ort Finca (TF, Top-Radrevier, ~1.580 €), Costa Adeje San Eugenio (TF, Top-Radrevier, 1.200 €),
-  Santa Cruz Zentrum (TF, Stadt, ~1.330 €), Las Palmas Las Canteras (GC, Stadt, 1.500 € all-in)
-- **Anfragen lohnt (34):** davon 15 im Top-Radrevier. Neu am 02.10.: privater Bungalow in San Eugenio Bajo
-  (Costa Adeje, 2 Doppelbetten, Meerblick, Pool, ~1.880 €). Neu am 01.10.: Costa Adeje El Madroñal (ab 1. Januar frei).
-- **Offline (vermutlich vergeben):** Puerto de la Cruz · Playa Jardín, El Médano
-- **Aussortiert (21):** u. a. alle Agentur-Angebote, deren Gebühr die Gesamtkosten über 2.000 € treibt
+## Stand 15.10.2026
+- **Passen sicher (4):** Arona-Ort Finca (TF, Top-Radrevier), Costa Adeje San Eugenio (TF, Ferienwohnung, 1.200 €),
+  Santa Cruz Zentrum (TF, Stadt), Las Palmas Las Canteras (GC, Stadt, 1.500 € all-in).
+  Die Wohnungen von Milanuncios sind nicht neu geprüft, die in Las Palmas ist über die Fotocasa-Kopie bestätigt.
+- **Anfragen lohnt (47):** davon 19 im Top-Radrevier. Neu am 15.10.: privates Haus in San Andrés (Santa Cruz, 1.300 € inkl. NK),
+  Pozo Izquierdo (GC, mit Gebühr ca. 1.970 €), Porís, Fasnia, Telde u. a.
+- **Offline (vermutlich vergeben):** 10 Einträge, darunter Costa Adeje El Madroñal und das Torviscas-Angebot
+- **Aussortiert (27):** u. a. alle Agentur-Angebote, deren Gebühr die Gesamtkosten über 2.000 € treibt
+
+## Neues Gesetz
+Seit 8. Oktober 2026 (RDL 29/2026) braucht ein Saisonmietvertrag laut OCU einen echten, belegbaren Grund
+(Arbeit, Studium, Behandlung), der im Vertrag steht, und eine Dauer von mehr als 31 Tagen. Siehe Dashboard.
